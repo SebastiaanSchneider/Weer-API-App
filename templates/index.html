@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weer API App</title>
+</head>
+<body>
+    <h1>Current weather</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Locatie:</td>
+                <td>{{ locatie }}</td>
+            </tr>
+            <tr>
+                <td>Datum:</td>
+                <td>{{ datum }}</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for key, value in data["current"].items() %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
