@@ -1,0 +1,2635 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:sebastiaanschneider@gmail.com
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART:20131113T100000Z
+DTEND:20131113T110000Z
+DTSTAMP:20240328T131943Z
+UID:86ABD543-FE61-4401-B488-12D54229E66D
+CREATED:20131112T100951Z
+LAST-MODIFIED:20131112T100951Z
+LOCATION:S
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Syllabus printen
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131121T143000Z
+DTEND:20131121T153000Z
+DTSTAMP:20240328T131943Z
+UID:BE22CCBE-F3C8-4128-BE19-520614D1BDAE
+CREATED:20131121T092946Z
+LAST-MODIFIED:20131121T092946Z
+LOCATION:Thuis
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:H1/3 lezen ling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131122T190000Z
+DTEND:20131122T210000Z
+DTSTAMP:20240328T131943Z
+UID:66EEC33D-4A75-4EDC-9B04-485826874315
+CREATED:20131121T093253Z
+LAST-MODIFIED:20131121T093253Z
+LOCATION:Un
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ling 2a
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131123T110000Z
+DTEND:20131123T120000Z
+DTSTAMP:20240328T131943Z
+UID:A562C3CC-A0AA-47D5-A66D-0D0005FE92B4
+CREATED:20131121T093513Z
+LAST-MODIFIED:20131121T093513Z
+LOCATION:Ub
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:2B 3a ling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131121T190000Z
+DTEND:20131121T200000Z
+DTSTAMP:20240328T131943Z
+UID:B37D44B4-541A-453A-BE29-5F4A3CE5243A
+CREATED:20131121T094131Z
+LAST-MODIFIED:20131121T094138Z
+LOCATION:Thuis
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Na eten h1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131212T140000Z
+DTEND:20131212T150000Z
+DTSTAMP:20240328T131943Z
+UID:67064B76-8A6B-406B-AD69-9982DBDAA2C8
+CREATED:20131121T165052Z
+LAST-MODIFIED:20131121T165052Z
+LOCATION:Thuis
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraak Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131125T120000Z
+DTEND:20131125T130000Z
+DTSTAMP:20240328T131943Z
+UID:2364DBDD-0A86-4C9A-8199-B42B8B7DEF52
+CREATED:20131125T111007Z
+LAST-MODIFIED:20131125T111007Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Mama bellen huurcontract 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131128T090000Z
+DTEND:20131128T100000Z
+DTSTAMP:20240328T131943Z
+UID:8A56A7E5-AF09-4DA3-A8DE-CD11443B1344
+CREATED:20131121T165051Z
+LAST-MODIFIED:20131126T102752Z
+LOCATION:Thuis
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Afspraak Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131127T100000Z
+DTEND:20131127T160000Z
+DTSTAMP:20240328T131943Z
+UID:8EEA68FD-16C8-40B1-9B1F-76645A84B60A
+CREATED:20131126T102922Z
+LAST-MODIFIED:20131126T102930Z
+LOCATION:Bij Mark
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Werken aan presentatie
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131128T150000Z
+DTEND:20131128T160000Z
+DTSTAMP:20240328T131943Z
+UID:7445B17E-AB81-4884-9C5C-185F1672C735
+CREATED:20131126T102954Z
+LAST-MODIFIED:20131126T102954Z
+LOCATION:Bungehuis
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:H1 ling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131129T143000Z
+DTEND:20131129T163000Z
+DTSTAMP:20240328T131943Z
+UID:0D3453E6-82DE-4E9C-AC04-F62C1C25C93A
+CREATED:20131126T103212Z
+LAST-MODIFIED:20131126T103212Z
+LOCATION:Omhp
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:H2 3 ling
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131130T120000Z
+DTEND:20131130T170000Z
+DTSTAMP:20240328T131943Z
+UID:428A01FD-A0D3-42AB-8EC6-24315E35BBF0
+CREATED:20131126T103758Z
+LAST-MODIFIED:20131126T103758Z
+LOCATION:UB
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:14-16 ling 8-9 phon
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131201T100000Z
+DTEND:20131201T140000Z
+DTSTAMP:20240328T131943Z
+UID:62C07235-F833-4A43-830F-12E98E861C44
+CREATED:20131126T104036Z
+LAST-MODIFIED:20131126T104036Z
+LOCATION:UB/thuis
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ling 4-5 presentatie
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131202T090000Z
+DTEND:20131202T130000Z
+DTSTAMP:20240328T131943Z
+UID:A36DDE5D-E49C-4897-9B43-207C7513DAF7
+CREATED:20131126T104210Z
+LAST-MODIFIED:20131126T104313Z
+LOCATION:OMHP
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Phon 10-14
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131201T100000Z
+DTEND:20131201T110000Z
+DTSTAMP:20240328T131943Z
+UID:A2C104DE-E3D8-4800-832A-3AAAEBD1BF62
+CREATED:20131201T125819Z
+LAST-MODIFIED:20131201T125819Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Nieuwe activiteit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140109T090000Z
+DTEND:20140109T133000Z
+DTSTAMP:20240328T131943Z
+UID:D33DA8D4-F81B-4E10-9CC7-4FB7A7E56180
+CREATED:20131216T144735Z
+LAST-MODIFIED:20131216T144736Z
+LOCATION:Raamgracht
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Koffierijden
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131223T110000Z
+DTEND:20131223T120000Z
+DTSTAMP:20240328T131943Z
+UID:5E8B305C-E887-4325-A713-246F8DD3FB86
+CREATED:20131216T164040Z
+LAST-MODIFIED:20131217T102555Z
+LOCATION:Thuis
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Afspraak Ron en pap
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131224T120000Z
+DTEND:20131224T123000Z
+DTSTAMP:20240328T131943Z
+UID:3F48559A-63E8-4030-B741-D3164EA1BBF8
+CREATED:20131212T151105Z
+LAST-MODIFIED:20131217T103004Z
+LOCATION:Telefoon
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraak Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140109T143000Z
+DTEND:20140109T150000Z
+DTSTAMP:20240328T131943Z
+UID:91D75ADC-1FE1-4881-B3B8-2313177425B0
+CREATED:20131217T124004Z
+LAST-MODIFIED:20131217T124004Z
+LOCATION:Thuis
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraak Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140114T130000Z
+DTEND:20140114T133000Z
+DTSTAMP:20240328T131943Z
+UID:87ABFBBA-9E27-4898-A793-106873E1CB52
+CREATED:20131217T124045Z
+LAST-MODIFIED:20131217T124045Z
+LOCATION:Thuis
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraak Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140123T143000Z
+DTEND:20140123T150000Z
+DTSTAMP:20240328T131943Z
+UID:17DD2955-A587-4B26-B172-6B11C04CC213
+CREATED:20131217T124126Z
+LAST-MODIFIED:20131217T124126Z
+LOCATION:Thuis
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraak Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20140130T140000Z
+DTEND:20140130T143000Z
+DTSTAMP:20240328T131943Z
+UID:9EF0F7AA-6125-4D37-A91C-30EC71B35F94
+CREATED:20131217T124155Z
+LAST-MODIFIED:20131217T124155Z
+LOCATION:Thuis
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraak Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131202T140000Z
+DTEND:20131202T160000Z
+DTSTAMP:20240328T131943Z
+UID:638B8155-A397-49E6-9172-A311FDB20177
+CREATED:20131126T104503Z
+LAST-MODIFIED:20141214T044556Z
+LOCATION:OMHP
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ling 6-7
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131125T090000Z
+DTEND:20131125T100000Z
+DTSTAMP:20240328T131943Z
+UID:C0E033FA-A4E4-4076-8DEF-190FE8244164
+CREATED:20131121T092648Z
+LAST-MODIFIED:20141214T044556Z
+LOCATION:UB
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Opdracht maken 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131124T090000Z
+DTEND:20131124T100000Z
+DTSTAMP:20240328T131943Z
+UID:E1AB8616-7FEF-40FD-9B99-61E16183E8B6
+CREATED:20131121T093837Z
+LAST-MODIFIED:20141214T044556Z
+LOCATION:Ub
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:3b
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20180906T122000Z
+DTEND:20180906T124000Z
+DTSTAMP:20240328T131943Z
+UID:040000008200E00074C5B7101A82E00800000000FAB3D69277D77743B2D88CD5F62B3CF
+ 810000000609CCE2691A0464FAA64B7B7D3703BB5
+CLASS:PRIVATE
+CREATED:20180906T100806Z
+DESCRIPTION:Naam van gebeurtenis: toets\nDatum en tijd: 02:20pm - 02:40pm (
+ Midden-Europese tijd) op donderdag 6 september 2018\nLocatie: lokaal A1.20\
+ n\nWelke toets?:\n  Hoofdstuk 1\n  Hoofdstuk 2\n  Hoofdstuk 3\n\nWilt u ver
+ anderingen aanbrengen aan het evenement?\nAnnuleren: https://calendly.com/c
+ ancellations/FDFWH6UMAQXXMIBZ\nVerplaatsen: https://calendly.com/rescheduli
+ ngs/FDFWH6UMAQXXMIBZ\n
+LAST-MODIFIED:20180906T100806Z
+LOCATION:lokaal A1.20
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:toets met Martijn Stegeman
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20180921T134500Z
+DTEND:20180921T140000Z
+DTSTAMP:20240328T131943Z
+UID:040000008200E00074C5B7101A82E00800000000E3DED9663521F248A0B260C51CA2255
+ 610000000C19648D29215BD42BD2B2EBA1A71B594
+CLASS:PRIVATE
+CREATED:20180920T132218Z
+DESCRIPTION:Naam van gebeurtenis: Test\nDatum en tijd: 03:45pm - 04:00pm (M
+ idden-Europese tijd) op vrijdag 21 september 2018\nLocatie: A1.20\n\nKies j
+ e test (maximaal 2) - let op\, kies de juiste onderwerpen!: Test 8 (reeksen
+ ) en 9 (arrays)\n\nWilt u veranderingen aanbrengen aan het evenement?\nAnnu
+ leren: https://calendly.com/cancellations/GEGXLB6FG64KSRZ6\nVerplaatsen: ht
+ tps://calendly.com/reschedulings/GEGXLB6FG64KSRZ6\n
+LAST-MODIFIED:20180920T132218Z
+LOCATION:A1.20
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Test met Martijn Stegeman
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190509T083000Z
+DTEND:20190509T090000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=noreply@reflexappointment.nl:mailto:noreply@reflexappointment.
+ nl
+UID:REFLEXBOOKINGSYSTEM#6285646
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CLASS:PUBLIC
+CREATED:20190326T122503Z
+DESCRIPTION:Beste Sebastiaan Schneider\, 10554769\,\n\nDank je voor het inb
+ oeken van een afspraak bij de studentendecaan. Hieronder vind je de details
+  van jouw afspraak.\n\nJe hebt een afspraak met: Claudia Fluggen (FGW) \nOm
+  te spreken over: Studievertraging \nDatum: donderdag 09 mei 2019 \nTijdsti
+ p: 10:30 \n\nLet op!\nIndien je onverwacht niet kunt komen\, verzoeken wij 
+ je vriendelijk je afspraak direct af te zeggen door te klikken op onderstaa
+ nde link. Doe dit zo snel mogelijk en uiterlijk 1 dag van tevoren zodat and
+ ere studenten gebruik kunnen maken van het afspraakmoment.\n\nklik hier om 
+ je afspraak te wijzigen of annuleren   \nLocatie: \nStudenten spreekuur: Uv
+ A Nieuwe Achtergracht 166\, Amsterdam\, \nRoute: Ga naar de ingang van REC 
+ A en neem in de hal de trap aan je linkerhand. Eenmaal op de eerste verdiep
+ ing ga je door de deuren aan je rechterhand. Vervolgens loop je rechtdoor n
+ aar het einde van de hal. Dit is de ingang van ruimte C1.01. Je kan hier pl
+ aatsnemen in de wachtruimte\, je wordt opgehaald.\n\nBelangrijke extra info
+ rmatie over de afspraak:\nNeem naar de afspraak een recente cijferlijst en 
+ de melding studievertraging mee. Kijk voor meer informatie op: \nhttp://stu
+ dent.uva.nl/content/az/beurzen/financiele-steun-van-de-uva/profileringsfond
+ s---afstudeerfonds/profileringsfonds---afstudeerfonds.html \n\nMet vriendel
+ ijk groet\, \nUvA Studentendecanen\n\n\nGegevens student:\n10554769 \n06439
+ 03149 \nsebastiaanschneider@gmail.com 
+LAST-MODIFIED:20190326T122503Z
+LOCATION:/Decanen/Claudia Fluggen (FGW)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraakbevestiging
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190402T133000Z
+DTEND:20190402T150000Z
+DTSTAMP:20240328T131943Z
+UID:13788u4hp9b15lgu9ugblt9osp@google.com
+CREATED:20190401T162610Z
+LAST-MODIFIED:20190401T205554Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hardlopen
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190418T080000Z
+DTEND:20190418T120000Z
+DTSTAMP:20240328T131943Z
+UID:786cac150kl8gvajkh67ge1g34@google.com
+CREATED:20190401T162628Z
+LAST-MODIFIED:20190411T095606Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Werken aan AK opdracht
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190503T080000Z
+DTEND:20190503T120000Z
+DTSTAMP:20240328T131943Z
+UID:309jlee0h7d3c9igtlcekhr844@google.com
+CREATED:20190401T162721Z
+LAST-MODIFIED:20190411T095832Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Werken aan AK opdracht
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190425T080000Z
+DTEND:20190425T120000Z
+DTSTAMP:20240328T131943Z
+UID:4skam7jsjvee8kj2dnr76mn26q@google.com
+CREATED:20190401T162643Z
+LAST-MODIFIED:20190411T095854Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Werken aan AK opdracht
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200612T090000Z
+DTEND:20200612T093000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=noreply-studiebegeleiding-fgw@uva.nl:mailto:noreply-studiebege
+ leiding-fgw@uva.nl
+UID:REFLEXBOOKINGSYSTEM#7121332
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CLASS:PUBLIC
+CREATED:20200605T073900Z
+DESCRIPTION:Beste Sebastiaan\,\n\nHierbij ontvang je de bevestiging van je 
+ afspraak op vrijdag 12 juni 2020 11:00\, met Marije Zeeman-Benjamins. \nLoc
+ atie: alle afspraken op locatie komen door corona-maatregelen voor onbepaal
+ de tijd te vervallen. De studieadviseur neemt z.s.m. contact met je op voor
+  een alternatieve invulling van de afspraak. \n\nMocht je verhinderd zijn\,
+  dan verzoeken wij je vriendelijk je afspraak af te zeggen door hier te kli
+ kken. Je kan de afspraak annuleren tot maximaal twaalf uur van te voren. Wi
+ l je de afspraak korter dan twaalf uur van te voren annuleren\, neem dan co
+ ntact op met de studieadviseur van jouw opleiding. \n\nMet vriendelijke gro
+ et\,\nOnderwijsbalie FGw\n\n-----------------------------------------------
+ ------------------------------------------------------------------\nUnivers
+ iteit van Amsterdam\nFaculteit der Geesteswetenschappen\n\nOnderwijsbalie F
+ Gw\n\nTurfdraagsterpad 15-17 (BG2\, kamer 0.06)\n1012 XT Amsterdam\nT. 020 
+ 525 4952\nOpeningstijden: ma t/m vrij 09:00 - 17:00 \nVoor antwoorden op ve
+ elgestelde vragen: student.uva.nl/fgw/az\nVoor afspraak studieadviseur: stu
+ dent.uva.nl/fgw > Contact Studieadviseurs\n--------------------------------
+ ---------------------------------------------------------------------------
+ ------
+LAST-MODIFIED:20200605T161010Z
+LOCATION:/UvA/Marije Zeeman-Benjamins
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bevestiging afspraak
+TRANSP:OPAQUE
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220414T093000Z
+DTEND:20220414T113000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E008000000003EBAB0562B4BD801000000000000000
+ 010000000DFDCF4BA9236D64B922EC2898DAA218D
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Bo
+ b Kieffer;X-NUM-GUESTS=0:mailto:b.kieffer0208@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ni
+ na Soels;X-NUM-GUESTS=0:mailto:catharinasoels@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=El
+ if Deniz;X-NUM-GUESTS=0:mailto:elif.deniz@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ge
+ orge Bloem;X-NUM-GUESTS=0:mailto:george2city@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Sa
+ nne Dekker;X-NUM-GUESTS=0:mailto:sanne.dekker@student.uva.nl
+CREATED:20220408T093738Z
+DESCRIPTION:\n
+LAST-MODIFIED:20220408T094702Z
+LOCATION:https://uva-live.zoom.us/my/racloutier
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BA Thesis Group  session 1
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-OWNERAPPTID:2120501054
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/my/racloutier
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/my/raclouti
+ er"\,"LocationAnnotation":""\,"LocationSource":1\,"LocationUri":""\,"Latitu
+ de":0.0\,"Longitude":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddr
+ ess":""}]
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-EVENTPROPERTIESTODELETE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220512T120000Z
+DTEND:20220512T140000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E00800000000F0503C6BFD5ED801000000000000000
+ 01000000067AB549B0865D741B840CEF7BCF084CE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Bo
+ b Kieffer;X-NUM-GUESTS=0:mailto:b.kieffer0208@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ni
+ na Soels;X-NUM-GUESTS=0:mailto:catharinasoels@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=El
+ if Deniz;X-NUM-GUESTS=0:mailto:elif.deniz@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ge
+ orge Bloem;X-NUM-GUESTS=0:mailto:george2city@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Sa
+ nne Dekker;X-NUM-GUESTS=0:mailto:sanne.dekker@student.uva.nl
+CREATED:20220503T145233Z
+DESCRIPTION:Dear everyone\,\nI hope that you are making progress on your th
+ esis. Our second session will take place next Thursday\, 12 May from 2:00 t
+ o 4:00 pm in PCH 525. If this works for you\, please accept this invitation
+ . If not\, let me know\, and I can arrange to livestream the session.\nWe w
+ ill focus on the Results/Analysis and Discussion sections of the thesis\, s
+ o if you could update your drafts of those sections and send it to me befor
+ ehand\, preferably by next week Tuesday\, I would appreciate it. If you sen
+ t me a link to a GoogleDoc or to a folder in the cloud and are using that t
+ o keep your thesis up-to-date\, then you do not need to send it to me again
+ —I’ll just check that folder/document on Tuesday.\nHave a nice rest of the 
+ week\, and see you next week!\nBest regards\,\nRobert Cloutier\n\nVan: Robe
+ rt Cloutier <r.a.cloutier@uva.nl>\nDatum: vrijdag\, 8 april 2022 om 11:37\n
+ Aan: Sanne Dekker <sanne.dekker@student.uva.nl>\, George Bloem <george2city
+ @gmail.com>\, Sebastiaan Schneider <sebastiaanschneider@gmail.com>\, Nina S
+ oels <catharinasoels@gmail.com>\, Bob Kieffer <b.kieffer0208@gmail.com>\, E
+ lif Deniz <elif.deniz@student.uva.nl>\nOnderwerp: BA Thesis Group session 1
+ \n\n
+LAST-MODIFIED:20220512T115502Z
+LOCATION:PCH 525
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BA Thesis Group  session 2
+TRANSP:OPAQUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:PCH 525
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"PCH 525"\,"LocationAnnotation":""\,"
+ LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"LocationState":""
+ \,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddress":""}]
+X-MICROSOFT-CDO-OWNERAPPTID:2120556016
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-EVENTPROPERTIESTODELETE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONSOURCE:None
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220602T100000Z
+DTEND:20220602T120000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E008000000008579C012FF73D801000000000000000
+ 010000000378FD7D03CB8544693339C433B041860
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Bo
+ b Kieffer;X-NUM-GUESTS=0:mailto:b.kieffer0208@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=El
+ if Deniz;X-NUM-GUESTS=0:mailto:elif.deniz@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ge
+ orge Bloem;X-NUM-GUESTS=0:mailto:george2city@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Be
+ n Groot;X-NUM-GUESTS=0:mailto:bengroot12@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Sa
+ nne Dekker;X-NUM-GUESTS=0:mailto:sanne.dekker@student.uva.nl
+CREATED:20220531T103646Z
+DESCRIPTION:Dear everyone\,\n\nThank you for your patience—I was waiting fo
+ r as many people to respond to the Doodle poll as possible before settling 
+ on a date.\n\nFrom the poll\, it seems the best date and time is Thursday\,
+  2 June from noon to 2:00 PM— I hope that this is still possible for those 
+ of you planning on attending.\n\nThis is an email invitation for the sessio
+ n\, so I would greatly appreciate it if you could please accept the invitat
+ ion if you plan on taking part\, whether on location or online\, or decline
+  if you will not be able to.\n\nThe session will take place in PCH 531. For
+  those of you who would like to take part but are unable to attend on locat
+ ion\, I have already included a Zoom link (https://uva-live.zoom.us/my/racl
+ outier) in this email invitation.\n\nPlease send me links to your drafts (i
+ deally complete drafts\, but if not\, then just send me as much as you have
+  at the moment) by Wednesday morning so that I have time to read through th
+ em before the session on Thursday. Also include any particular questions or
+  issues that you would like us to cover in the session.\n\nGood luck with w
+ riting\, and I look forward to seeing your progress!\n\nBest regards\,\n\nR
+ obert Cloutier\n\nVan: Robert Cloutier <r.a.cloutier@uva.nl>\nDatum: vrijda
+ g\, 20 mei 2022 om 16:25\nAan: Sanne Dekker <sanne.dekker@student.uva.nl>\,
+  George Bloem <george2city@gmail.com>\, Elif Deniz <elif.deniz@student.uva.
+ nl>\, Ben Groot <bengroot12@hotmail.com>\, Bob Kieffer <b.kieffer0208@gmail
+ .com>\, Sebastiaan Schneider <sebastiaanschneider@gmail.com>\, Nina Soels <
+ catharinasoels@gmail.com>\nOnderwerp: BA Thesis Group session 3\nDear BA th
+ esis students\,\n\nI hope that everyone is doing well and making progress o
+ n your thesis! A few points I would like raise:\n\n\n  *   It is near time 
+ for our third and final group session. Could you please fill in the Doodle 
+ poll<https://doodle.com/meeting/participate/id/wdLX1K4d> if you haven’t alr
+ eady (or update it if you have already filled it in)\, even if you are not 
+ able to attend\, so that we can schedule it to accommodate as many of you a
+ s possible?\n  *   If you haven’t already but would like to have an individ
+ ual meeting with me about the results/analysis/discussion section of your t
+ hese\, please send me an email.\n  *   If you were unable to attend the sec
+ ond session and haven’t send me a update in a while\, could you please send
+  me a quick update\, even if it is to say that you haven’t been able to mak
+ e any progress? We can meet to discuss strategies on how best to proceed.\n
+ \nHave a nice weekend!\n\nBest regards\,\n\nRobert Cloutier\n\n\n[signature
+ _2748087826]<https://www.uva.nl/en/about-the-uva/organisation/faculties/fac
+ ulty-of-humanities/homepage.html>\nRobert A. Cloutier\nLecturer of English 
+ Linguistics\nEnglish Language and Culture\nUniversiteit van Amsterdam\n[sig
+ nature_818264667]\nr.a.cloutier@uva.nl<mailto:r.a.cloutier@uva.nl>\n[signat
+ ure_1319694133]\n+31205253836<tel:+31205253836>\n[signature_781452823]\nFac
+ ulty of Humanities\nDepartment of Modern Foreign Languages and Cultures\nSp
+ uistraat 134\, room 5.40\n1012 VB Amsterdam\nNetherlands\n[signature_362102
+ 0723]\nuva.nl<https://www.uva.nl/en/about-the-uva/organisation/faculties/fa
+ culty-of-humanities/homepage.html>\n[signature_2696859498]<https://www.link
+ edin.com/in/robert-cloutier-61b632/>\nThe content of this email is confiden
+ tial and intended for the recipient specified in message only. It is strict
+ ly forbidden to share any part of this message with any third party\, witho
+ ut a written consent of the sender. If you received this message by mistake
+ \, please reply to this message and follow with its deletion\, so that we c
+ an ensure such a mistake does not occur in the future.\n\n
+LAST-MODIFIED:20220602T093023Z
+LOCATION:https://uva-live.zoom.us/my/racloutier\; PCH 531
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:BA Thesis Group session 3
+TRANSP:OPAQUE
+ATTACH;FILENAME=image001.jpg:https://mail.google.com/?view=att&th=18119b08a
+ c5ff756&attid=0.1&disp=attd&zw
+ATTACH;FILENAME=image002.png:https://mail.google.com/?view=att&th=18119b08a
+ c5ff756&attid=0.2&disp=attd&zw
+ATTACH;FILENAME=image003.png:https://mail.google.com/?view=att&th=18119b08a
+ c5ff756&attid=0.3&disp=attd&zw
+ATTACH;FILENAME=image004.png:https://mail.google.com/?view=att&th=18119b08a
+ c5ff756&attid=0.4&disp=attd&zw
+ATTACH;FILENAME=image005.png:https://mail.google.com/?view=att&th=18119b08a
+ c5ff756&attid=0.5&disp=attd&zw
+ATTACH;FILENAME=image006.png:https://mail.google.com/?view=att&th=18119b08a
+ c5ff756&attid=0.6&disp=attd&zw
+X-MICROSOFT-CDO-OWNERAPPTID:2120611461
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/my/racloutier\; PC
+ H 531
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/my/raclouti
+ er"\,"LocationAnnotation":""\,"LocationSource":1\,"LocationUri":""\,"Latitu
+ de":0.0\,"Longitude":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddr
+ ess":""}\,{"DisplayName":"PCH 531"\,"LocationAnnotation":""\,"LocationUri":
+ ""\,"LocationStreet":""\,"LocationCity":""\,"LocationState":""\,"LocationCo
+ untry":""\,"LocationPostalCode":""\,"LocationFullAddress":""}]
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-EVENTPROPERTIESTODELETE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-LOCATIONSOURCE:None
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20201113T140000Z
+DTEND:20201113T143000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:747FDEE6-5B82-4762-A1A9-96AA7D0B6AD8+ZOOMMEETINGNUMBER:89982883148
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CLASS:PUBLIC
+CREATED:20201110T135733Z
+DESCRIPTION:Robert Cloutier is inviting you to a scheduled Zoom meeting.\n\
+ nTopic: Thesis supervision\nTime: This is a recurring meeting Meet anytime\
+ n\nJoin Zoom Meeting\nhttps://uva-live.zoom.us/j/89982883148\n\nMeeting ID:
+  899 8288 3148\n\nJoin by SIP\n89982883148@zoomcrc.com\n\nJoin by H.323\n16
+ 2.255.37.11 (US West)\n162.255.36.11 (US East)\n213.19.144.110 (Amsterdam N
+ etherlands)\n213.244.140.110 (Germany)\nMeeting ID: 899 8288 3148\n\n
+LAST-MODIFIED:20230124T161022Z
+LOCATION:https://uva-live.zoom.us/j/89982883148
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Thesis supervision
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131104T143000Z
+DTEND:20131104T150000Z
+DTSTAMP:20240328T131943Z
+UID:17E3B5B6-E69A-46DD-9FB5-8CEE7EB3BDDA
+CREATED:20131031T154444Z
+LAST-MODIFIED:20230124T161025Z
+LOCATION:Kopzorg
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraak Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131017T080000Z
+DTEND:20131017T083000Z
+DTSTAMP:20240328T131943Z
+UID:487B1592-BB5C-4DA9-8114-E1CB1A9EDB65
+CREATED:20131007T082428Z
+LAST-MODIFIED:20230124T161026Z
+LOCATION:Thuis
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraak Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170112T140000Z
+DTEND:20170112T150000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=marit@kop-zorg.nl:mailto:marit@kop-zorg.nl
+UID:1k1kf6t5j8ufu7e8s8cn75s64s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=marit@
+ kop-zorg.nl;X-NUM-GUESTS=0:mailto:marit@kop-zorg.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=se
+ bastiaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail
+ .com
+CREATED:20161222T123101Z
+LAST-MODIFIED:20230124T161027Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bas S KB 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20210423T070000Z
+DTEND:20210423T090000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E0080000000028EFFEBBA52FD701000000000000000
+ 010000000C738376DF96872479F14CECDFEEFC9EC
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ch
+ inouk Lindt;X-NUM-GUESTS=0:mailto:chinouk.lindt@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ge
+ orge Bloem;X-NUM-GUESTS=0:mailto:george2city@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ju
+ lia Smeets;X-NUM-GUESTS=0:mailto:julia.smeets@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Lo
+ yde Silva;X-NUM-GUESTS=0:mailto:loyde.ls@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Be
+ n Groot;X-NUM-GUESTS=0:mailto:bengroot12@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ch
+ inouk Lindt;X-NUM-GUESTS=0:mailto:chinouklindt@outlook.com
+CREATED:20210412T141132Z
+DESCRIPTION:Dear researchers\,\n\nBased on the responses to the Doodle poll
+ \, Friday\, 23 April at 9:00 am worked best. Could you please accept or dec
+ line this invitation so I have an idea of who will be taking part in the se
+ ssion?\n\nFor this session\, please send me a draft of your methodology sec
+ tion by Wednesday\, 21 April in the evening. I hope to post a short guide t
+ o writing up the Methodology by this Wednesday\, 14 April on the BA Thesis 
+ Canvas page\; I will send around a message to let you know when I have post
+ ed the material.\n\nBest regards\,\n\nRobert Cloutier\n\n\n________________
+ ________________________________________________________________\nMicrosoft
+  Teams meeting\nNeem deel via uw computer of mobiele app\nKlik hier om deel
+  te nemen aan de vergadering<https://teams.microsoft.com/l/meetup-join/19%3
+ ameeting_NTE5ODZkNzAtMTRiOC00ZDJlLTkyMDYtNWU4NTg2YzE5MjYz%40thread.v2/0?con
+ text=%7b%22Tid%22%3a%22a0f1cacd-618c-4403-b945-76fb3d6874e5%22%2c%22Oid%22%
+ 3a%22f67dbe3b-158a-4312-b9d2-7681365ceea7%22%7d>\nMeer informatie<https://a
+ ka.ms/JoinTeamsMeeting> | Opties voor vergadering<https://teams.microsoft.c
+ om/meetingOptions/?organizerId=f67dbe3b-158a-4312-b9d2-7681365ceea7&tenantI
+ d=a0f1cacd-618c-4403-b945-76fb3d6874e5&threadId=19_meeting_NTE5ODZkNzAtMTRi
+ OC00ZDJlLTkyMDYtNWU4NTg2YzE5MjYz@thread.v2&messageId=0&language=nl-NL>\n___
+ ___________________________________________________________________________
+ __\n
+LAST-MODIFIED:20230124T161028Z
+LOCATION:https://uva-live.zoom.us/j/82109898720
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BA Thesis 2: Methodology
+TRANSP:OPAQUE
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_NTE5ODZkNzAtMTRiOC00ZDJ
+ lLTkyMDYtNWU4NTg2YzE5MjYz@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"privat
+ e":true\,"type":0}
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:2119459880
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/a0f1cacd-618c-4403-b945-76fb3d6874e5/f67dbe3b-158a-4312-b9d2-76
+ 81365ceea7/19_meeting_NTE5ODZkNzAtMTRiOC00ZDJlLTkyMDYtNWU4NTg2YzE5MjYz@thre
+ ad.v2/0
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/j/82109898720
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:r.a.cloutier@uva.nl\;gruu\;opaqu
+ e=app:conf:focus:id:teams:2:0!19:meeting_NTE5ODZkNzAtMTRiOC00ZDJlLTkyMDYtNW
+ U4NTg2YzE5MjYz-thread.v2!f67dbe3b158a4312b9d27681365ceea7!a0f1cacd618c4403b
+ 94576fb3d6874e5
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/j/821098987
+ 20"\,"LocationAnnotation":""\,"LocationSource":1\,"LocationUri":""\,"Latitu
+ de":0.0\,"Longitude":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddr
+ ess":""}]
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_NTE5ODZkNzAtMTRiOC00ZDJlLTkyMDYtNWU4NTg2YzE5MjYz%40thread.v2/0
+ ?context=%7b%22Tid%22%3a%22a0f1cacd-618c-4403-b945-76fb3d6874e5%22%2c%22Oid
+ %22%3a%22f67dbe3b-158a-4312-b9d2-7681365ceea7%22%7d
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20170214T153000
+DTEND;TZID=Europe/Amsterdam:20170214T170000
+RRULE:FREQ=WEEKLY;UNTIL=20170213T225959Z;INTERVAL=2;BYDAY=TU
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=marit@kop-zorg.nl:mailto:marit@kop-zorg.nl
+UID:vj9mbdvd4gu7124vpgc9bilu88@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=se
+ bastiaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=marit@
+ kop-zorg.nl;X-NUM-GUESTS=0:mailto:marit@kop-zorg.nl
+CREATED:20170131T094309Z
+LAST-MODIFIED:20230124T161030Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:HB Bas S 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20170214T153000
+DTEND;TZID=Europe/Amsterdam:20170214T170000
+RRULE:FREQ=WEEKLY;UNTIL=20170328T133000Z;INTERVAL=2;BYDAY=TU
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=marit@kop-zorg.nl:mailto:marit@kop-zorg.nl
+UID:vj9mbdvd4gu7124vpgc9bilu88_R20170214T143000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=se
+ bastiaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=marit@
+ kop-zorg.nl;X-NUM-GUESTS=0:mailto:marit@kop-zorg.nl
+CREATED:20170131T094309Z
+LAST-MODIFIED:20230124T161030Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:HB Bas S 16.00 uur 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190826T110000Z
+DTEND:20190826T113000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=p.bakker@ssh.nl:mailto:p.bakker@ssh.nl
+UID:040000008200E00074C5B7101A82E00800000000909D82567B3DD501000000000000000
+ 0100000003D0CC700A281074D9CBD94BD147C2E2F
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CREATED:20190718T131507Z
+DESCRIPTION:Volgende stappen.\n
+LAST-MODIFIED:20230124T161031Z
+LOCATION:Bel afspraak 
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Volgende stappen
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:3
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Bel afspraak "\,"LocationAnnotation"
+ :""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"LocationSta
+ te":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddress
+ ":""}]
+X-MICROSOFT-CDO-OWNERAPPTID:1983018979
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20201203T133000Z
+DTEND:20201203T140000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:757F5DA2-F98D-44DE-827A-C8A9FD21FB8C
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CREATED:20201203T100637Z
+DESCRIPTION:Dear Sebastiaan\,\n\n\n\nLet’s meet tomorrow at 2:30 pm. It pro
+ bably won’t be too long since we will just focus on the logistics of applyi
+ ng for approval from the Ethics Committee\, so no need to prepare much befo
+ rehand.\n\n\n\nBest regards\,\n\n\n\nRobert Cloutier\n\n\n\nVan: Sebastiaan
+  Schneider <sebastiaanschneider@gmail.com>\nDatum: dinsdag 1 december 2020 
+ om 13:24\nAan: Robert Cloutier <r.a.cloutier@uva.nl>\nOnderwerp: RE: Resumi
+ ng work on my thesis\nOpnieuw verzenden - Van: <r.a.cloutier@uva.nl>\n\n\n\
+ nDear dr. Cloutier\,\n\n&nbsp\;\n\nThis Thursday is great for me! I don’t h
+ ave a preference for a specific time\, so please pick whatever works best f
+ or you.\n\n&nbsp\;\n\nWhat things should I prepare for the meeting?\n\n&nbs
+ p\;\n\nAll the best\,\n\nSebastiaan Schneider\n10554769\n\n&nbsp\;\n\nFrom:
+  dr. R.A. Cloutier<mailto:r.a.cloutier@uva.nl>\nSent: dinsdag 1 december 20
+ 20 10:46\nTo: Sebastiaan Schneider<mailto:sebastiaanschneider@gmail.com>\nS
+ ubject: Re: Resuming work on my thesis\n\n&nbsp\;\n\nDear Sebastiaan\,\n\n&
+ nbsp\;\n\nThank you for your patience. Are you available to meet this Thurs
+ day afternoon between 2:00 and 5:00 pm?\n\n&nbsp\;\n\nBest regards\,\n\n&nb
+ sp\;\n\nRobert Cloutier\n\n\n\n\n====================================\n\nDr
+ . Robert Cloutier\n\nAssistant Professor of English Linguistics\n\nUniversi
+ ty of Amsterdam\n\nFaculty of Humanities\n\nDepartment of Modern Foreign La
+ nguages and Cultures\n\nPO Box 1641\n\n1000 BP Amsterdam\n\nNetherlands\n\n
+ &nbsp\;\n\nvisiting address:\n\nSpuistraat 134\, room 5.40\n\n1012 VB Amste
+ rdam\n\nNetherlands\n\n&nbsp\;\n\n+31 20 525 3836\n\n&nbsp\;\n\n&nbsp\;\n\n
+ On Wed\, Nov 25\, 2020 at 11:25 AM Sebastiaan Schneider <sebastiaanschneide
+ r@gmail.com<mailto:sebastiaanschneider@gmail.com>> wrote:\n\nDear dr. Clout
+ ier\,\n\n&nbsp\;\n\nApologies for the slow response. I am having some serio
+ us back problems (likely due to the persistent lack of physical activity)\,
+  which makes it extremely uncomfortable to sit a my desk\, let alone focus.
+ \n\n&nbsp\;\n\nThank you for reaching out to them! I am available for a mee
+ ting at practically any time\, any day\, except for Mondays and Wednesdays 
+ from 9:00 to 11:00\, so please choose a moment that suits you best.\n\nWhat
+  things should I prepare for the meeting? Due to my circumstance\, I haven’
+ t been able to do what I wanted\, so I do not have the short theoretical fr
+ amework or the first draft of the questionnaire yet\, but I’ll do my best t
+ o get those done beforehand\, should you want to look at those. Are there a
+ ny other things that would be good to have on hand?\n\n&nbsp\;\n\nAll the b
+ est\,\n\nSebastiaan Schneider\n10554769\n\n&nbsp\;\n\nFrom: dr. R.A. Clouti
+ er<mailto:r.a.cloutier@uva.nl>\nSent: vrijdag 20 november 2020 15:24\nTo: S
+ ebastiaan Schneider<mailto:sebastiaanschneider@gmail.com>\nSubject: Re: Res
+ uming work on my thesis\n\n&nbsp\;\n\nDear Sebastiaan\,\n\n&nbsp\;\n\nI hav
+ e spoken with the director of English\, and it seems that we will need to s
+ ubmit a request to the Ethics Committee before you are allowed to distribut
+ e the questionnaire. From what he said\, it sounds like a rather long and i
+ nvolved process\, so we should get started on it as soon as possible. It is
+  perhaps easiest if we arrange a Zoom meeting sometime soon to discuss what
+  needs to be done. Let me know when you might be available.\n\n&nbsp\;\n\nB
+ est regards\,\n\n&nbsp\;\n\nRobert Cloutier\n\n&nbsp\;\n\n\n\n\n===========
+ =========================\n\nDr. Robert Cloutier\n\nAssistant Professor of 
+ English Linguistics\n\nUniversity of Amsterdam\n\nFaculty of Humanities\n\n
+ Department of Modern Foreign Languages and Cultures\n\nPO Box 1641\n\n1000 
+ BP Amsterdam\n\nNetherlands\n\n&nbsp\;\n\nvisiting address:\n\nSpuistraat 1
+ 34\, room 5.40\n\n1012 VB Amsterdam\n\nNetherlands\n\n&nbsp\;\n\n+31 20 525
+  3836\n\n&nbsp\;\n\n&nbsp\;\n\nOn Tue\, Nov 10\, 2020 at 2:39 PM Sebastiaan
+  Schneider <sebastiaanschneider@gmail.com<mailto:sebastiaanschneider@gmail.
+ com>> wrote:\n\nDear dr. Cloutier\,\n\n&nbsp\;\n\nThank you for your reply!
+ \n\n&nbsp\;\n\nThursday will likely be a bit messy for me\, but my Friday i
+ s entirely open until 4 pm\, so whatever time you prefer works for me!\n\n&
+ nbsp\;\n\nAll the best\,\n\nSebastiaan Schneider\n10554769\n\n&nbsp\;\n\nFr
+ om: dr. R.A. Cloutier<mailto:r.a.cloutier@uva.nl>\nSent: dinsdag 10 novembe
+ r 2020 10:29\nTo: Sebastiaan Schneider<mailto:sebastiaanschneider@gmail.com
+ >\nSubject: Re: Resuming work on my thesis\n\n&nbsp\;\n\nDear Sebastiaan\,\
+ n\n&nbsp\;\n\nThank you for your reminder--it has indeed been a busy few we
+ eks. I am available to meet via Zoom Thursday between 11 am and 4 pm or Fri
+ day any time until 5 pm. Let me know what works best for you\, and I will s
+ end you a Zoom link.\n\n&nbsp\;\n\nBest regards\,\n\n&nbsp\;\n\nRobert Clou
+ tier\n\n\n\n\n====================================\n\nDr. Robert Cloutier\n
+ \nAssistant Professor of English Linguistics\n\nUniversity of Amsterdam\n\n
+ Faculty of Humanities\n\nDepartment of Modern Foreign Languages and Culture
+ s\n\nPO Box 1641\n\n1000 BP Amsterdam\n\nNetherlands\n\n&nbsp\;\n\nvisiting
+  address:\n\nSpuistraat 134\, room 5.40\n\n1012 VB Amsterdam\n\nNetherlands
+ \n\n&nbsp\;\n\n+31 20 525 3836\n\n&nbsp\;\n\n&nbsp\;\n\nOn Mon\, Nov 2\, 20
+ 20 at 3:17 PM Sebastiaan Schneider <sebastiaanschneider@gmail.com<mailto:se
+ bastiaanschneider@gmail.com>> wrote:\n\nDear dr. Cloutier\,\n\n&nbsp\;\n\nI
+  hope you have been doing well\, all things considered!\n\n&nbsp\;\n\nAs I 
+ am currently nearing the end of the stack of articles I have been reading f
+ or my thesis and am preparing for the next step\, which was delayed a bit b
+ y the removal of my tonsils two weeks ago\, among other factors\, I thought
+  I would message you with an update and perhaps see if you would have some 
+ time for a short meeting in the near future.\n\n&nbsp\;\n\nSo far\, I have 
+ found a number of interesting things that I could possibly use in my thesis
+ \, though I feel the biggest roadblock ahead is the questionnaire that I wi
+ ll be sending out. As a quick recap for what I will be doing: I am going to
+  send out a questionnaire to a number of South Korean high school students\
+ , whom I will ask for the amount of hours and the ways in which they spend 
+ their free time where they (at times) come in contact with the English lang
+ uage\, which I will compare to their scores on a language skill test.\n\nFo
+ r the skill test I have settled on using LexTALE\, which is a relatively si
+ mple way of testing vocabulary and readily available online\, and I am cons
+ idering adding another test\, since it’s very short\, though I have been ad
+ vised to keep things simple.\n\nFor the language contact portion\, there ar
+ e far fewer replicable items. One concrete option is the Language Contact P
+ rofile\, which was created for the purpose of quantifying subjects’ languag
+ e contact\, though not quite in the way I need. It is much longer and more 
+ elaborate than what I need\, has a particular focus on the study abroad con
+ text\, and is written to be used with Spanish as the L2. This means that I 
+ would have to adapt it either way\, which is not ideal. Often times\, studi
+ es that did a similar thing to what I’d like to do not include their questi
+ onnaires at all\, which makes it hard to find something that I would only h
+ ave to make minor alterations to and translate to Korean. I would therefore
+  like to discuss these options with you before I make a decision.\n\nThere 
+ are a lot of minor details I will need to work out\, but I am planning to u
+ se Google Forms for the questionnaire\, as that will allow me to easily pro
+ cess the responses.\n\n&nbsp\;\n\nAside from all of this\, one thing I see 
+ myself running into while writing is the issue of justifying my choices\, e
+ specially with regard to the subjects (which I have chosen based on (percei
+ ved) availability)\, the choice of skill test (which was also for it’s avai
+ lability)\, and the specific areas I will put forward in the language conta
+ ct portion. The latter is something I would like to turn into somewhat of a
+  rigid structure\, using Likert scales and/or multiple choice questions\, s
+ ince this will be a quantitative study and written answer will be incredibl
+ y arduous to process\, though I have not come across any arguments for maki
+ ng the divisions between watching movies and listening to music\, for examp
+ le. While I can easily think up a few categories into which I could place a
+ ll of my own activities and try to define those in a way that subjects woul
+ d not be unsure of what goes where\, I feel that is not a very academically
+  legitimate way of doing it. If you have any tips on where t
+LAST-MODIFIED:20230124T161032Z
+LOCATION:https://uva-live.zoom.us/j/89982883148
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Thesis Sebastiaan Schneider
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:2118916083
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190321T153000Z
+DTEND:20190321T163000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=ronkoppies@kop-zorg.nl:mailto:ronkoppies@kop-zorg.nl
+UID:1566n6m9j1j0ouqn7q0vns2k1a@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=sebast
+ iaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ronkop
+ pies@kop-zorg.nl;X-NUM-GUESTS=0:mailto:ronkoppies@kop-zorg.nl
+X-GOOGLE-CONFERENCE:https://meet.google.com/aru-gocf-sqv
+CREATED:20190307T154117Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/ar
+ u-gocf-sqv\nOr dial: (US) +1 731-207-0932 PIN: 787556051#\n\nLearn more abo
+ ut Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do 
+ not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230124T161033Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Afspraak Bas S - Ron
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20191002T123000Z
+DTEND:20191002T133000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=ronkoppies@kop-zorg.nl:mailto:ronkoppies@kop-zorg.nl
+UID:45ksm6lj4078sef45l9gdqpmfg@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ronkop
+ pies@kop-zorg.nl;X-NUM-GUESTS=0:mailto:ronkoppies@kop-zorg.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=sebast
+ iaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wzc-bbpi-mgp
+CREATED:20190829T061541Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/wz
+ c-bbpi-mgp\nOr dial: (US) +1 443-839-0559 PIN: 547361543#\n\nLearn more abo
+ ut Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do 
+ not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230124T161033Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bas Schneider 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190321T150000Z
+DTEND:20190321T160000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=marit@kop-zorg.nl:mailto:marit@kop-zorg.nl
+UID:1llfdfq2jv7f18f5fb09mktdfb@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=sebast
+ iaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=marit@
+ kop-zorg.nl;X-NUM-GUESTS=0:mailto:marit@kop-zorg.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=esmeep
+ aasman@autstekend.nl;X-NUM-GUESTS=0:mailto:esmeepaasman@autstekend.nl
+X-GOOGLE-CONFERENCE:https://meet.google.com/bvs-tpha-xft
+CREATED:20190307T154156Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/bv
+ s-tpha-xft\nOr dial: (US) +1 267-961-3681 PIN: 213293602#\n\nLearn more abo
+ ut Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do 
+ not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230124T161035Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Esmee - Bas - Marit 
+TRANSP:OPAQUE
+X-APPLE-TRAVEL-DURATION;VALUE=DURATION:PT1H
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200507T130000Z
+DTEND:20200507T140000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:4C740FFF-BF63-46F6-A2F0-EA44C0540D1A+ZOOMMEETINGNUMBER:91091871699
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN="R
+ ijkens, Dorien";X-NUM-GUESTS=0:mailto:dorien.rijkens@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=In
+ shaaf Weeder;X-NUM-GUESTS=0:mailto:inshaaf.weeder@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ju
+ lia Smeets;X-NUM-GUESTS=0:mailto:julia.smeets3255@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=LG
+ N Burggraaf;X-NUM-GUESTS=0:mailto:lgnburggraaf@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN="D
+ een, Mark";X-NUM-GUESTS=0:mailto:mark.deen@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ki
+ mberly.vanderaar@student.uva.nl;X-NUM-GUESTS=0:mailto:kimberly.vanderaar@st
+ udent.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN="S
+ torm, Marlies";X-NUM-GUESTS=0:mailto:marliesstorm@hotmail.com
+CREATED:20200501T095656Z
+DESCRIPTION:Robert Cloutier is inviting you to a scheduled Zoom meeting.\n\
+ nTopic: BA Thesis Session 2\nTime: May 7\, 2020 03:00 PM Amsterdam\n\nJoin 
+ Zoom Meeting\nhttps://uva-live.zoom.us/j/7250087987\n\nMeeting ID: 725 008 
+ 7987\n
+LAST-MODIFIED:20230124T161036Z
+LOCATION:https://uva-live.zoom.us/j/7250087987
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BA Thesis Session 2
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:2118453403
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20180409T113000
+DTEND;TZID=Europe/Amsterdam:20180409T140000
+RRULE:FREQ=WEEKLY;UNTIL=20180603T215959Z;INTERVAL=2;BYDAY=MO
+EXDATE;TZID=Europe/Amsterdam:20180409T113000
+EXDATE;TZID=Europe/Amsterdam:20180507T113000
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=marit@kop-zorg.nl:mailto:marit@kop-zorg.nl
+UID:087h9fm79mpcvpfaavjeqkcu8n@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=marit@
+ kop-zorg.nl;X-NUM-GUESTS=0:mailto:marit@kop-zorg.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=se
+ bastiaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail
+ .com
+CREATED:20180322T131013Z
+LAST-MODIFIED:20230124T161038Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:HB Bas S 1200 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20180423T123000
+DTEND;TZID=Europe/Amsterdam:20180423T150000
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=marit@kop-zorg.nl:mailto:marit@kop-zorg.nl
+UID:087h9fm79mpcvpfaavjeqkcu8n@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=se
+ bastiaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=marit@
+ kop-zorg.nl;X-NUM-GUESTS=0:mailto:marit@kop-zorg.nl
+RECURRENCE-ID;TZID=Europe/Amsterdam:20180423T113000
+CREATED:20180322T131013Z
+LAST-MODIFIED:20230124T161038Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:HB Bas S 1300 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200731T080000Z
+DTEND:20200731T090000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=e.s.vanbijnen@uva.nl:mailto:e.s.vanbijnen@uva.nl
+UID:040000008200E00074C5B7101A82E008000000002BD8A67A0D67D601000000000000000
+ 010000000AE7597F589947A45BBF222F12CD41314
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CREATED:20200731T073744Z
+DESCRIPTION:\n\n\n\n_______________________________________________________
+ _________________________\nJoin Microsoft Teams Meeting<https://teams.micro
+ soft.com/l/meetup-join/19%3ameeting_MWMxYTYxZDctOWM2Zi00OGY5LTljNjUtMmJmMWN
+ kMTNlNDIy%40thread.v2/0?context=%7b%22Tid%22%3a%22a0f1cacd-618c-4403-b945-7
+ 6fb3d6874e5%22%2c%22Oid%22%3a%227248f66b-31b3-4a9e-8800-3e506d754ee7%22%7d>
+ \n\nLearn more about Teams<https://aka.ms/JoinTeamsMeeting> | Meeting optio
+ ns<https://teams.microsoft.com/meetingOptions/?organizerId=7248f66b-31b3-4a
+ 9e-8800-3e506d754ee7&tenantId=a0f1cacd-618c-4403-b945-76fb3d6874e5&threadId
+ =19_meeting_MWMxYTYxZDctOWM2Zi00OGY5LTljNjUtMmJmMWNkMTNlNDIy@thread.v2&mess
+ ageId=0&language=en-US>\n\n\n______________________________________________
+ __________________________________\n
+LAST-MODIFIED:20230124T161039Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Meeting
+TRANSP:OPAQUE
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MWMxYTYxZDctOWM2Zi00OGY
+ 5LTljNjUtMmJmMWNkMTNlNDIy@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"privat
+ e":true\,"type":0}
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:2118647321
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://scheduler.teams.microsoft.co
+ m/teams/a0f1cacd-618c-4403-b945-76fb3d6874e5/7248f66b-31b3-4a9e-8800-3e506d
+ 754ee7/19_meeting_MWMxYTYxZDctOWM2Zi00OGY5LTljNjUtMmJmMWNkMTNlNDIy@thread.v
+ 2/0
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:e.s.vanbijnen@uva.nl\;gruu\;opaq
+ ue=app:conf:focus:id:teams:2:0!19:meeting_MWMxYTYxZDctOWM2Zi00OGY5LTljNjUtM
+ mJmMWNkMTNlNDIy-thread.v2!7248f66b31b34a9e88003e506d754ee7!a0f1cacd618c4403
+ b94576fb3d6874e5
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MWMxYTYxZDctOWM2Zi00OGY5LTljNjUtMmJmMWNkMTNlNDIy%40thread.v2/0
+ ?context=%7b%22Tid%22%3a%22a0f1cacd-618c-4403-b945-76fb3d6874e5%22%2c%22Oid
+ %22%3a%227248f66b-31b3-4a9e-8800-3e506d754ee7%22%7d
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131008T093000Z
+DTEND:20131008T103000Z
+DTSTAMP:20240328T131943Z
+UID:F9112EC9-94D3-4614-991D-1D3F1CF4BF2A
+CREATED:20131004T134722Z
+LAST-MODIFIED:20230124T161040Z
+LOCATION:Bungehuis kamer 017
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraak begeleiding
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20210607T113000Z
+DTEND:20210607T123000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E0080000000091243AF93959D701000000000000000
+ 01000000094F4800579986D4E8B053E8FBC74587E
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CREATED:20210604T120556Z
+DESCRIPTION:\n\nVan: Sebastiaan Schneider \n\nDatum: donderdag\, 3 juni 202
+ 1 om 15:32\nAan: Robert Cloutier \n\nOnderwerp: RE: BA Thesis Session 4\n\n
+ Dear dr. Cloutier\,\n\nI’ll be there tomorrow\, though I won’t have much to
+  add in terms of reviewing.\n\nI do have a short update on the questionnair
+ e: I’ve had the text re-translated by someone. It’s been entered into Qualt
+ rics\, though she’s going to do one more check to see if everything checks 
+ out. Once she’s done that\, I’ll be pursuing a few more options\, but I ass
+ ume your contact should also be content with the quality (I hope). The link
+  will be the same as before\, but\, just to be sure\, here it is again: htt
+ ps://uva.fra1.qualtrics.com/jfe/form/SV_7ZCcepUC7Q78XaJ?Q_Language=KO<https
+ ://eur04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fuva.fra1.qualt
+ rics.com%2Fjfe%2Fform%2FSV_7ZCcepUC7Q78XaJ%3FQ_Language%3DKO&data=04%7C01%7
+ Cr.a.cloutier%40uva.nl%7C19d64d636f594a609c2708d9269411cd%7Ca0f1cacd618c440
+ 3b94576fb3d6874e5%7C1%7C0%7C637583239659014420%7CUnknown%7CTWFpbGZsb3d8eyJW
+ IjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata
+ =DJqYwB%2FqH4Cyf8FbHQLof72wcTkHQJwS1%2BKAHO9bpJs%3D&reserved=0>.\n\nI’ll se
+ e you tomorrow!\n\nAll the best\,\nSebastiaan Schneider\n\nFrom: Robert Clo
+ utier\n\nSent: dinsdag 1 juni 2021 10:48\nTo: Chinouk Lindt\n\; Loyde Silva
+ \n\; Sebastiaan Schneider\n\; Julia Smeets\n\; Ben Groot\n\; george2city@gm
+ ail.com\n\nSubject: Re: BA Thesis Session 4\n\nDear researchers\,\n\nI sent
+  around an invitation for a Zoom meeting this Friday for our final BA Thesi
+ s session. I am sending this email just in case you did not read/get the in
+ formation I sent with the invitation\, which you can find below.\n\nGood lu
+ ck\, and see you soon!\n\nBest regards\,\n\nRobert Cloutier\n\n============
+ ========================\nDr. Robert Cloutier\nAssistant Professor of Engli
+ sh Linguistics\nUniversity of Amsterdam\nFaculty of Humanities\nDepartment 
+ of Modern Foreign Languages and Cultures\nPO Box 1641\n1000 BP Amsterdam\nN
+ etherlands\n\nvisiting address:\nSpuistraat 134\, room 5.40\n1012 VB Amster
+ dam\nNetherlands\n\n+31 20 525 3836\n\n\nVan: Robert Cloutier \n\nDatum: di
+ nsdag\, 1 juni 2021 om 10:45\nAan: Chinouk Lindt \n\, Loyde Silva \n\, Seba
+ stiaan Schneider \n\, Julia Smeets \n\, Ben Groot \n\, george2city@gmail.co
+ m \n\nOnderwerp: BA Thesis Session 4\nDear researchers\, This Friday is our
+  final Thesis session. According to the Doodle poll\, most of you are avail
+ able the whole day\, so I chose a time in the afternoon—I hope this works f
+ or you. The session itself will focus on the Introduction\, Conclusion\, Ab
+ stract\, and formatting issues. If there are other topics/issues that you w
+ ould like us to cover that haven’t already been discussed\, just send me an
+  email. By Wednesday evening/Thursday morning\, please send me as much of y
+ our thesis as you have in as final a format as you can get it—I will have a
+  look at the thesis in its entirety. You will be able to sign up for indivi
+ dual sessions for the beginning of next week—send me an email to arrange yo
+ ur session when you have a chance. If you have any quick questions or issue
+ s\, do not hesitate to send me an email! Best regards\, Robert Cloutier\n\n
+LAST-MODIFIED:20230124T161041Z
+LOCATION:https://uva-live.zoom.us/j/82109898720
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RE: BA Thesis Session 4
+TRANSP:OPAQUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/j/82109898720
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/j/821098987
+ 20"\,"LocationAnnotation":""\,"LocationSource":1\,"LocationUri":""\,"Latitu
+ de":0.0\,"Longitude":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddr
+ ess":""}]
+X-MICROSOFT-CDO-OWNERAPPTID:2119573905
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20211220T113000Z
+DTEND:20211220T123000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E008000000008DB804A59BF1D701000000000000000
+ 0100000004955A99FD440CC438D816C536D07073D
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CREATED:20211215T100805Z
+DESCRIPTION:Dear Sebastiaan\,\nThis is good news! Next week is exam week\, 
+ so it would be best to meet then. I am proposing meeting on Monday\, 20 Dec
+ ember at 12:30 Amsterdam time via Zoom (link in Location in the appointment
+  above)\, but if this does not work for you\, just decline this invitation 
+ and we can find another time.\nBest regards\,\nRobert Cloutier\nVan: Sebast
+ iaan Schneider \n\nDatum: dinsdag\, 14 december 2021 om 14:12\nAan: Robert 
+ Cloutier \n\nOnderwerp: Thesis Data\nDear dr. Cloutier\,\n\nIt’s taken a wh
+ ile\, but it looks like I’ve finally gathered all of the data necessary for
+  my research! I took someone’s advice and posted my survey through Reddit\,
+  where I even got help from 2 people who posted it elsewhere in a Korean fo
+ rum.\nThat got me another 26 responses\, bringing the total for the revised
+  survey to 71 participants. That’s not quite ideal yet\, though there are a
+ nother 35 responses on the older version (which dr. Lee did not help transl
+ ate)\, which I am still considering using.\nI’d also sent another mail to d
+ r. Lee two weeks ago\, so I expected not to get a response\, but\, to my su
+ rprise\, he just replied this morning! He said he’ll try to send the link t
+ o some people\, so I hope that might push the revised survey to over 80.\n\
+ nAside from that\, I would like get your input on a few of the observations
+  I’ve got so far.\nI’ve spent the past two-or-so weeks programming in R (a 
+ language used for statistical analysis\, of which I learned some of the bas
+ ics from dr. Wiechmann’s Corpus Linguistics course)\, and I’ve managed to m
+ ostly automate the process of filtering\, transforming and analyzing the da
+ ta.\nI’ve attached two html-files (which you can open with your web browser
+ )\, one for all of the data and the other with only the revised-survey data
+ \, and both of which contain both the code I wrote and the results it has p
+ roduced. It is quite long and hard to interpret without all of the context\
+ , though the graphs at the end are fairly clear. The labels all use the col
+ umn names from the data in Excel\, where “Act” is short for “Activity” and 
+ “Fill” can be ignored. All of them are compared to the scores on the test t
+ hat was a part of the survey.\nLooking at them\, it seems that the data are
+  fairly consistent between the two data sets\, though there are some signif
+ icant differences here and there.\n\nI could list all of the differences an
+ d otherwise interesting data\, but that seems like a waste of you time in t
+ his format\, so I’ll save it for the thesis itself\, though I would like yo
+ ur input on some of the results\, mainly regarding how to report on them. I
+ ’m working on a list of questions (many of which will probably fall under t
+ he same answer)\, which\, I think\, would be best to discuss directly.\n\nI
+  assume the exam week for this block will be either this week or the next\,
+  but if you have a moment at some point\, I’d love to make an appointment. 
+ Any time works for me\, though I’d prefer to have it before 3 pm\, since I’
+ m still functionally in the Japanese time zone (+8) at the moment. Other th
+ an that\, I have nothing I can’t move\, so my schedule is entirely open.\n\
+ nPlease let me know what works best for you!\n\nAll the best\,\nSebastiaan 
+ Schneider\n10554769\n
+LAST-MODIFIED:20230124T161042Z
+LOCATION:https://uva-live.zoom.us/j/82109898720
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Thesis Data
+TRANSP:OPAQUE
+ATTACH;FILENAME=Results All Data.html:https://mail.google.com/?view=att&th=
+ 17dbd904bbabb24b&attid=0.1&disp=attd&zw
+ATTACH;FILENAME=Results Revised Survey Data.html:https://mail.google.com/?v
+ iew=att&th=17dbd904bbabb24b&attid=0.2&disp=attd&zw
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/j/82109898720
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/j/821098987
+ 20"\,"LocationAnnotation":""\,"LocationSource":1\,"LocationUri":""\,"Latitu
+ de":0.0\,"Longitude":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddr
+ ess":""}]
+X-MICROSOFT-CDO-OWNERAPPTID:2119990669
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20190416T094000Z
+DTEND:20190416T100000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=noreply-studiebegeleiding-fgw@uva.nl:mailto:noreply-studiebege
+ leiding-fgw@uva.nl
+UID:REFLEXBOOKINGSYSTEM#6270831
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CLASS:PUBLIC
+CREATED:20190319T091005Z
+DESCRIPTION:Beste Sebastiaan\,\n\nHierbij ontvang je de bevestiging van je 
+ afspraak op dinsdag 16 april 2019 11:40\, met Marije Zeeman-Benjamins. \nLo
+ catie: PC Hoofthuis\, Spuistraat 134\, kamer 5.46.  \n\nMocht je verhinderd
+  zijn\, dan verzoeken wij je vriendelijk je afspraak af te zeggen door hier
+  te klikken. Mocht het niet lukken om te annuleren\, neem dan contact op me
+ t de onderwijsadministratie. \n\nMet vriendelijke groet\,\nOnderwijsadminis
+ tratie PC Hoofthuis\n------------------------------------------------------
+ -----------------------------------------------------------\nUniversiteit v
+ an Amsterdam\nFaculteit der Geesteswetenschappen\nOnderwijsadministratie PC
+  Hoofthuis (PCH)\nP.C. Hoofthuis | Spuistraat 134 | kamer 0.12\n1012 VB Ams
+ terdam | tel. +31 (0)20 525 4484\nOpeningstijden balie: ma | di | wo | do |
+  vr  13.00 tot 16.00 uur\nTelefonisch bereikbaar: maandag t/m vrijdag 13.00
+  - 16.00 uur\nVoor antwoorden op veelgestelde vragen: student.uva.nl > [opl
+ eiding] > A-Z\nVoor afspraak studieadviseur: student.uva.nl > [opleiding] >
+  Contact > Studieadviseur\n------------------------------------------------
+ -----------------------------------------------------------------\n
+LAST-MODIFIED:20230124T161043Z
+LOCATION:/UvA/Marije Zeeman-Benjamins
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bevestiging afspraak
+TRANSP:TRANSPARENT
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20210827T130000Z
+DTEND:20210827T140000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E00800000000F30D92969899D701000000000000000
+ 010000000C0F9663E3D132440BC4A011448951EBF
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CLASS:PUBLIC
+CREATED:20210825T100427Z
+DESCRIPTION:\n\nVan: Sebastiaan Schneider <sebastiaanschneider@gmail.com>\n
+ Datum: dinsdag\, 24 augustus 2021 om 15:28\nAan: Robert Cloutier <r.a.clout
+ ier@uva.nl>\nOnderwerp: RE: Thesis Data\n\nDear dr. Cloutier\,\n\nThank you
+  for your response.\n\nI also think it would be good to discuss the questio
+ ns more directly\, mostly because I now have 44 responses to the updated qu
+ estionnaire\, most of which may be invalid to my results\, and I don’t have
+  any prospects of getting more. The reason for excluding those who have spe
+ nt more than a year abroad is not something I’ve seen in other papers\, but
+  they also dealt with a more cohesive group of participants\, which is what
+  I initially wanted to mimic in aiming for high school students. There\, th
+ e issue of spending long amounts of time abroad wouldn’t be a real issue\, 
+ so the cut-off point of one year is something I propose\, since it is a rea
+ sonably large factor in using\, and thus learning\, English. It might just 
+ me digging my own grave\, however…\nThursday and Friday are both completely
+  open for me\, so please choose a time that works best for you.\n\nThe proc
+ ess of going to the University of Hiroshima is still ongoing with a few dev
+ elopments here and there\, but there is definitely still a very dark orange
+  light overhead. I have mailed the contact person there just the other day\
+ , who to me they are still going ahead with everything\, including enrollme
+ nt and student housing (they have a student campus\, on which I have applie
+ d for a room)\, but for the time being students are not allowed to enter Ja
+ pan. Considering the fact that their bureaucratic system works very slowly\
+ , it seems likely that I will not be going there in September and\, dependi
+ ng on the covid-related developments in the meantime\, it could take a whil
+ e. I should be getting information on applying for online courses soon\, ho
+ wever.\n\nAll the best\,\nSebastiaan Schneider\n10554769\n\nFrom: Robert Cl
+ outier<mailto:r.a.cloutier@uva.nl>\nSent: maandag 23 augustus 2021 11:54\nT
+ o: Sebastiaan Schneider<mailto:sebastiaanschneider@gmail.com>\nSubject: Re:
+  Thesis Data\n\nDear Sebastiaan\,\n\nThank you for your reminder! It is goo
+ d news that the total number of participants has gone up. I have not had co
+ ntact with Dr. Lee since we had the meeting with him\; I hope that you got 
+ a response to your email to him. I will try to contact him this week to see
+  how things are going on his end.\n\nI responded to your questions below\, 
+ but it may also be good to meet to discuss in more detail. Are you availabl
+ e Thursday or Friday at any time? If neither of these works\, I might also 
+ be able to meet Wednesday late afternoon.\n\nBy the way\, how are your plan
+ s for studying abroad? Do they look like they will work out?\n\nBest regard
+ s\,\n\nRobert Cloutier\n\n====================================\nDr. Robert 
+ Cloutier\nAssistant Professor of English Linguistics\nUniversity of Amsterd
+ am\nFaculty of Humanities\nDepartment of Modern Foreign Languages and Cultu
+ res\nPO Box 1641\n1000 BP Amsterdam\nNetherlands\n\nvisiting address:\nSpui
+ straat 134\, room 5.40\n1012 VB Amsterdam\nNetherlands\n\n+31 20 525 3836\n
+ \n\nVan: Sebastiaan Schneider <sebastiaanschneider@gmail.com>\nDatum: dinsd
+ ag\, 17 augustus 2021 om 16:22\nAan: Robert Cloutier <r.a.cloutier@uva.nl>\
+ nOnderwerp: RE: Thesis Data\nDear dr. Cloutier\,\n\nI hope you are doing we
+ ll.\n\nI sent you the email below about two weeks ago\, but haven’t heard b
+ ack from you. I’m assuming it’s because you’ve been enjoying your vacation\
+ , but\, on the off chance you read it but forgot to reply\, I wanted to sen
+ d you a reminder.\nI also have a short update: the total number of particip
+ ants has gone up slightly to a round 60 and I’m also sending dr. Lee an ema
+ il after this\, to see if he’s able to help me at the moment or if he’s als
+ o enjoying his vacation.\n\nAll the best\,\nSebastiaan Schneider\n10554769\
+ n\nFrom: Sebastiaan Schneider<mailto:sebastiaanschneider@gmail.com>\nSent: 
+ donderdag 29 juli 2021 21:15\nTo: Robert Cloutier<mailto:r.a.cloutier@uva.n
+ l>\nSubject: Thesis Data\n\nDear dr. Cloutier\,\n\nI finally have an update
+  on the data gathering: I’ve set out the link to a number of Facebook group
+ s with (predominantly) Korean members where I managed to gather 21 response
+ s so far\, with (hopefully) a few more trickling in over the next few days.
+  That puts me at a total of 56 participants.\nI do have two major issues\, 
+ however. The first is the fact that I now have two somewhat different quest
+ ionnaires with the participants split between the two. The English version 
+ hasn’t changed an incredible amount\, though there is definitely a differen
+ ce\, and the Korean version has had a very different translation on top of 
+ that. How should I handle that in my analysis? Is it something I can simply
+  acknowledge and move on\, or should I look at the data sets separately?\n\
+ n\nTechnically\, you should only use the responses of the questionnaire tha
+ t had been modified—because there were a number of ambiguous/unclear questi
+ ons in the original\, you cannot be sure that people who filled those in th
+ e two separate questionnaires understood the questions in the same way.\n\n
+ It also depends on the differences between the two questionnaires and how y
+ ou use the results/compare the different results.\n\nYou can also analyze t
+ he data from the first questionnaire just to see what the results are\, but
+  don’t necessarily include them in the body of your thesis—you can include 
+ these results in an appendix and refer to them if there is anything importa
+ nt to point out\, but only if it is something that is very important/releva
+ nt.\n\nThe other thing is that a significant portion of my participants liv
+ e or have lived outside of South Korea for over a year\, which was going to
+  be my cut-off point for excluding them. If did that\, I would have to leav
+ e out roughly half of my data\, which means I would need to\, again\, find 
+ more participants… I’m not sure how to handle this\, do you have any sugges
+ tions?\nThink about the reason you selected the cut-off point. Is there a s
+ trong theoretical reason for that particular cut-off point? Are there theor
+ etical arguments for having another cut-off point? What have previous resea
+ rchers who have carried out similar research used as their cut-off points\,
+  and what was their justification?\n\nI also haven’t gotten any responses t
+ hrough dr. Lee\, by the way (unless he contacted people these past two days
+ )\, but I feel like I can’t really ask him to do it\, seeing as he has alre
+ ady helped me a lot. Have you had any contact about this with him\, by any 
+ chance?\n\nThank you for your time.\n\nAll the best\,\nSebastiaan Schneider
+ \n10554769\n\n\n
+LAST-MODIFIED:20230124T161043Z
+LOCATION:https://uva-live.zoom.us/j/82109898720
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RE: Thesis Data
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-OWNERAPPTID:2119748339
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/j/82109898720
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/j/821098987
+ 20"\,"LocationAnnotation":""\,"LocationSource":1\,"LocationUri":""\,"Latitu
+ de":0.0\,"Longitude":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddr
+ ess":""}]
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20210618T141500Z
+DTEND:20210618T151500Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E00800000000284A5DD53564D701000000000000000
+ 010000000F9E06E980AB3004AB1F75FE2C0AE0BF3
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=se
+ unghun@icu.ac.jp;X-NUM-GUESTS=0:mailto:seunghun@icu.ac.jp
+CREATED:20210618T134642Z
+DESCRIPTION:Dear Dr. Lee and Sebastiaan\,\nLet’s try to meet at 4:00 pm CES
+ T. If you are available\, please accept this invitation. If not\, just decl
+ ine and we will find another day/time to meet.\nBest regards\,\nRobert Clou
+ tier\n\nVan: Sebastiaan Schneider \n\nDatum: vrijdag\, 18 juni 2021 om 09:0
+ 3\nAan: Seunghun LEE \n\nCC: Robert Cloutier \n\nOnderwerp: RE: Questionnai
+ re\nDear dr. Lee\,\n\nI would be more than happy to have a Zoom meeting wit
+ h you! It would be ideal if dr. Cloutier could also join\, though I believe
+  he is extremely busy at the moment.\nThe time difference (7 hours) makes i
+ t a little harder to plan\, but I am more than willing to get up a little e
+ arlier if that makes it easier. I also have practically no other appointmen
+ ts at the moment\, and nothing I can’t move\, so please let me know what ti
+ me would be most convenient for you or\, if he’s able to\, choose a date wi
+ th dr. Cloutier\, and let me know when that is.\n\nMany thanks again!\n\nAl
+ l the best\,\nSebastiaan Schneider\n10554769\n\nFrom: Seunghun LEE\n\nSent:
+  donderdag 17 juni 2021 17:03\nTo: Sebastiaan Schneider\n\nCc: Robert Clout
+ ier\n\nSubject: Re: Questionnaire\n\nHi Sebastiaan\,\n(cc: Dr. Cloutier)\n\
+ nI started revising the intro part of the Korean version\, and made quite a
+  lot of changes.\nI think that it will be better if we have a zoom meeting 
+ so I can ask you directly what you mean in some of the questions.\n(The Eng
+ lish version didn't really help\, and unfortunately\, I don't have time to 
+ guess what you mean).\n\nSo\, why don't you suggest some times for a zoom m
+ eeting either just two of us\, or with Dr. Cloutier (cc-ed to this email)?\
+ n\nI will be free-er from next week.\n\nBest\,\nDr. Lee\n\n\nOn Fri\, Jun 1
+ 1\, 2021 at 6:23 AM Sebastiaan Schneider \n> wrote:\nDear dr. Lee\,\n\nI ju
+ st realized we also removed one of the questions and changed the order\, wh
+ ich might make it very confusing to go through them\, so I adapted the tran
+ slation to match the English version\, which I have attached to this email.
+ \n\nI hope that makes it a little easier for you!\n\nAll the best\,\nSebast
+ iaan Schneider\n10554769\n\nFrom: Sebastiaan Schneider\n\nSent: woensdag 9 
+ juni 2021 10:23\nTo: Seunghun LEE\n\nSubject: RE: Questionnaire\n\nDear dr.
+  Lee\,\n\nBoth of those would be immensely appreciated!\n\nI’ve attached bo
+ th the translated and the English version. Per your advice\, two weeks ago\
+ , I had the entire text retranslated by a Korean student who is studying he
+ re in the Netherlands. She has some experience in translating\, though\, as
+  you suspected\, she is not in the field of linguistics.\nOn Monday\, I als
+ o went through the English version of the questionnaire with dr. Cloutier\,
+  to make sure that text wasn’t ambiguous: we made changes to a few of the q
+ uestions\, so those translations may make even less sense at the moment. Th
+ ese are Q2.5\, Q2.9\, Q2.10\, Q2.11\, Q2.12 and Q3.2.\n\nPutting me in cont
+ act with people in Korea would also be great\, as my biggest issue has been
+  that people simply haven’t responded to my initial emails (of which I’ve s
+ ent… probably hundreds\, at this point). So if you know someone that is ope
+ n to contact\, that would be a great relieve for me.\n\nPlease let me know 
+ if there is else you would like to know. I look forward to hearing from you
+  again.\n\nAll the best\,\nSebastiaan Schneider\n10554769\n\nFrom: Seunghun
+  LEE\n\nSent: woensdag 9 juni 2021 01:57\nTo: Sebastiaan Schneider\n\nSubje
+ ct: Re: Questionnaire\n\nHi Sabastiaan\,\n\nNice meeting you online!\n\nHer
+ e is what I can do to help you:\n- looking at the Korean translation of you
+ r questionnaire (the current version is not easy to understand by native sp
+ eakers of Korean)\n- forwarding the survey to some of my colleagues in Kore
+ a.\n\nI won’t have time to actively search for participants. So\, I will le
+ ave it up to you.\nIf there is any English language learning community\, yo
+ u may want to join and/or see whether they can help you with finding partic
+ ipants.\n\nIf this sounds good to you\, why don’t you first sending me a te
+ xt/doc file of your survey that was done by a translation service company?\
+ n\nBest\,\nDr. Lee\n\n\n-------------------------------------\nDr. Seunghun
+  J. Lee\n\nSenior Associate Professor of Linguistics\nDirector\, Institute 
+ for Educational Research and Service (~August\, 2021)\n\nInternational Chri
+ stian University (Tokyo\, Japan)\nhttps://www.icu.ac.jp/<https://eur04.safe
+ links.protection.outlook.com/?url=https%3A%2F%2Fwww.icu.ac.jp%2F&data=04%7C
+ 01%7Cr.a.cloutier%40uva.nl%7C1e6a03f11a264f480cf908d932273a99%7Ca0f1cacd618
+ c4403b94576fb3d6874e5%7C1%7C0%7C637595966340092403%7CUnknown%7CTWFpbGZsb3d8
+ eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&s
+ data=vaEeDEPirp09mlt7vbdFItoOUP18gsWZbD1F1td89Yk%3D&reserved=0>\n\n\nICU Li
+ nguistics Lab\nhttps://sites.google.com/info.icu.ac.jp/linglab/home<https:/
+ /eur04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsites.google.com
+ %2Finfo.icu.ac.jp%2Flinglab%2Fhome&data=04%7C01%7Cr.a.cloutier%40uva.nl%7C1
+ e6a03f11a264f480cf908d932273a99%7Ca0f1cacd618c4403b94576fb3d6874e5%7C1%7C0%
+ 7C637595966340092403%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2
+ luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=saCUo9ikhKVhZcBxqt3be8VoV
+ AN1JHZH3GK7CUKWQZc%3D&reserved=0>\n\nOn Jun 9\, 2021\, at 3:50\, Sebastiaan
+  Schneider \n> wrote:\n\nDear dr. Lee\,\n\nMy apologies for the delayed mes
+ sage\; I thought I had sent this message yesterday\, but I must have wanted
+  to reread before I sent it and forgotten to actually do so.\n\nI am not su
+ re how much dr. Cloutier has told you\, so I will start with a short introd
+ uction: my name is Sebastiaan Schneider\, I am 28 years old and am currentl
+ y in the final stage of my bachelor in English Language and Culture. My the
+ sis is on the influence of free-time activities involving English on Englis
+ h language proficiency among South Korean students. Any help you may be abl
+ e to give we with this would be greatly appreciated\, as I have had some is
+ sues with gathering data.\n\nI am not sure in what way you were willing to 
+ help\, but if you wanted to have a virtual meeting please let me know whate
+ ver time and date is most convenient for you\, as my schedule is practicall
+ y completely open at the moment.\n\nPlease let me know if there is anything
+  else you want to know and I will respond as soon as possible.\n\nAll the b
+ est\,\nSebastiaan Schneider\n10554769\n\nFrom: Robert Cloutier\n\nSent: maa
+ ndag 7 juni 2021 14:17\nTo: Sebastiaan Schneider\n\nCc: seunghun@icu.ac.jp\
+ n\nSubject: Questionnaire\n\nDear Sebastiaan\,\n\nAs I mentioned in our mee
+ ting today\, my Korean contact\, Dr. Seunghun Lee (in cc)\, has offered to 
+ help you with the translation of the questionnaire. This email is to put th
+ e two of you in contact.\n\nBest regards\,\n\nRobert Cloutier\n\n==========
+ ==========================\nDr. Robert Cloutier\nAssistant Professor of Eng
+ lish Linguistics\nUniversity of Amsterdam\nFaculty of Humanities\nDepartmen
+ t of Modern Foreign Languages and Cultures\nPO Box 1641\n1000 BP Amsterdam\
+ nNetherlands\n\nvisiting address:\nSpuistraat 134\, room 5.40\n1012 VB Amst
+ erdam\nNetherlands\n\n+31 20 525 3836\n\n\n\n\n\n--\nSeunghun J. Lee\, Ph.D
+ .\nSenior Associate Professor of Linguistics\nDirector\, Institute for Educ
+ ational Research and Service\n\nPsychology & Linguistics\nInternational Chr
+ istian University\nTokyo\, Japan\n\nLinguistics Lab @ ICU (https://sites.go
+ ogle.com/info.icu.ac.jp/linglab/)<https://eur04.safelinks.protection.outloo
+ k.com/?url=https%3A%2F%2Fsites.google.com%2Finfo.icu.ac.jp%2Flinglab%2F&dat
+ a=04%7C01%7Cr.a.cloutier%40uva.nl%7C1e6a03f11a264f480cf908d932273a99%7Ca0f1
+ cacd618c4403b94576fb3d6874e5%7C1%7C0%7C637595966340102359%7CUnknown%7CTWFpb
+ GZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7
+ C1000&sdata=Vjp%2B6AjCGzmLyAcpMmzm6fkI6phHnD6WzsdPjOYcE4o%3D&reserved=0>\nP
+ honetic Typology Project (2021.4-2024.3) (https://iculinglab.github.io/phon
+ typ
+LAST-MODIFIED:20230124T161044Z
+LOCATION:https://uva-live.zoom.us/j/98843302989
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:RE: Questionnaire
+TRANSP:OPAQUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/j/98843302989
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/j/988433029
+ 89"\,"LocationAnnotation":""\,"LocationUri":""\,"LocationStreet":""\,"Locat
+ ionCity":""\,"LocationState":""\,"LocationCountry":""\,"LocationPostalCode"
+ :""\,"LocationFullAddress":""}]
+X-MICROSOFT-CDO-OWNERAPPTID:2119604008
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONSOURCE:None
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20210409T130000Z
+DTEND:20210409T133000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E00800000000D00EAC758C2CD701000000000000000
+ 0100000007400261FFBBD95498EC6FF3B9E110454
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CREATED:20210408T153302Z
+DESCRIPTION:Dear Sebastiaan\,\nThis is an invitation for a Zoom meeting on 
+ Friday\, 9 April at 3:00 pm. If this works for you\, please accept. If not\
+ , decline\, and we will find another day/time.\nBest regards\,\nRobert Clou
+ tier\nVan: Sebastiaan Schneider \n\nDatum: woensdag\, 7 april 2021 om 14:53
+ \nAan: Robert Cloutier \n\nOnderwerp: Thesis Literature Review\nDear dr. Cl
+ outier\,\n\nI have been occupied with a number of other activities\, such a
+ s my questionnaire and the distribution thereof\, as well the application f
+ or my potential exchange next year (which seems to be going ahead\, at the 
+ moment)\, so I haven’t had the chance to do much with my literature review 
+ quite yet. I also expect that the things I want to do will take a while\, s
+ o I think it is best to discuss what I have for now\, since I will need to 
+ incorporate your advice either way!\n\nI have attached the current draft of
+  my thesis to this email\, with a few notes in red\, as well as a reflectio
+ n on my progress at the end.\nI have no other classes at the moment\, nor a
+ ny major appointments during the day\, so I am available at whatever time s
+ uits you best.\n\nThanks in advance!\n\nAll the best\,\nSebastiaan Schneide
+ r\n10554769\n
+LAST-MODIFIED:20230124T161045Z
+LOCATION:https://uva-live.zoom.us/j/82109898720
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Thesis Literature Review
+TRANSP:OPAQUE
+ATTACH;FILENAME=_Working Draft.docx:https://mail.google.com/?view=att&th=17
+ 8b21d8cdf5ac9f&attid=0.1&disp=attd&zw
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/j/82109898720
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/j/821098987
+ 20"\,"LocationAnnotation":""\,"LocationSource":1\,"LocationUri":""\,"Latitu
+ de":0.0\,"Longitude":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddr
+ ess":""}]
+X-MICROSOFT-CDO-OWNERAPPTID:2119451600
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20141115T160000Z
+DTEND:20141115T193000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=jamydegroot@gmail.com:mailto:jamydegroot@gmail.com
+UID:cue0kcl7oqd0ab4isan8l8i42k@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=se
+ bastiaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Wy
+ tse Bleeker;X-NUM-GUESTS=0:mailto:wytsebleeker@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=jamyde
+ groot@gmail.com;X-NUM-GUESTS=0:mailto:jamydegroot@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;X-NUM-GU
+ ESTS=0:mailto:grevtsovmike@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Fr
+ ank Schoenmaker;X-NUM-GUESTS=0:mailto:schoenmakerfrank@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=Bas Me
+ rkies;X-NUM-GUESTS=0:mailto:bmerkies@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=Daniel
+  Gulpers;X-NUM-GUESTS=0:mailto:daniel.gulpers@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Elmar 
+ Kamphuis;X-NUM-GUESTS=0:mailto:elmarkamphuis@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Jo
+ p Weterings;X-NUM-GUESTS=0:mailto:jopweterings@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Da
+ nny de Fouw;X-NUM-GUESTS=0:mailto:danny.defouw@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Robin 
+ Scheiuit;X-NUM-GUESTS=0:mailto:rscheiuit@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Mart S
+ cheepers;X-NUM-GUESTS=0:mailto:scheepers.mart@gmail.com
+CREATED:20141016T081007Z
+DESCRIPTION:Hello guys\,\n\nIt is time to have one of our famous after-the-
+ match parties! Where will Frank sleep this night and will Robin be with him
+ ?\n\n\nSaturday 15th November in Zaandam\n16:10 ZV De Zaan 7 - JAWS Amsterd
+ am 2\n\n17:30 BeeR & Food in Zaandam\n\n\n20:30 Maybe: Crazy Sinns- to-conf
+ ession party\nThis is really a crazy part. Hopefully we can get tickets at 
+ the door. Oh and it is a dress-up party.\n\nAdress in Amsterdam\nPosthoornk
+ erkkelder (Haarlemmerstraat 124)
+LAST-MODIFIED:20230124T161046Z
+LOCATION:Zaandam\, Nederland
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Samen eten en biertje?
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20210604T120000Z
+DTEND:20210604T140000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E008000000006571B24CC156D701000000000000000
+ 01000000080731C0C1333264FA0C9C6495329D14B
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ge
+ orge2city@gmail.com;X-NUM-GUESTS=0:mailto:george2city@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ju
+ lia Smeets;X-NUM-GUESTS=0:mailto:julia.smeets3255@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Lo
+ yde Silva;X-NUM-GUESTS=0:mailto:loyde.ls@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Be
+ n Groot;X-NUM-GUESTS=0:mailto:bengroot12@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ch
+ inouk Lindt;X-NUM-GUESTS=0:mailto:chinouklindt@outlook.com
+CREATED:20210601T084512Z
+DESCRIPTION:Dear researchers\, This Friday is our final Thesis session. Acc
+ ording to the Doodle poll\, most of you are available the whole day\, so I 
+ chose a time in the afternoon—I hope this works for you. The session itself
+  will focus on the Introduction\, Conclusion\, Abstract\, and formatting is
+ sues. If there are other topics/issues that you would like us to cover that
+  haven’t already been discussed\, just send me an email. By Wednesday eveni
+ ng/Thursday morning\, please send me as much of your thesis as you have in 
+ as final a format as you can get it—I will have a look at the thesis in its
+  entirety. You will be able to sign up for individual sessions for the begi
+ nning of next week—send me an email to arrange your session when you have a
+  chance. If you have any quick questions or issues\, do not hesitate to sen
+ d me an email! Best regards\, Robert Cloutier\n
+LAST-MODIFIED:20230124T161047Z
+LOCATION:https://uva-live.zoom.us/j/82109898720
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BA Thesis Session 4
+TRANSP:OPAQUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/j/82109898720
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/j/821098987
+ 20"\,"LocationAnnotation":""\,"LocationSource":1\,"LocationUri":""\,"Latitu
+ de":0.0\,"Longitude":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddr
+ ess":""}]
+X-MICROSOFT-CDO-OWNERAPPTID:2119568997
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200410T130000Z
+DTEND:20200410T150000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E008000000001F187FF12708D601000000000000000
+ 01000000076A4605CC0A5BC41ACB3D51420F3277B
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN="R
+ ijkens, Dorien";X-NUM-GUESTS=0:mailto:dorien.rijkens@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=in
+ shaaf.weeder@gmail.com;X-NUM-GUESTS=0:mailto:inshaaf.weeder@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ju
+ lia.smeets3255@gmail.com;X-NUM-GUESTS=0:mailto:julia.smeets3255@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN="A
+ ar, Kimberley van der";X-NUM-GUESTS=0:mailto:kimberley.vanderaar@student.uv
+ a.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Lg
+ nburggraaf@hotmail.com;X-NUM-GUESTS=0:mailto:lgnburggraaf@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN="S
+ torm, Marlies";X-NUM-GUESTS=0:mailto:marliesstorm@hotmail.com
+CREATED:20200408T095107Z
+DESCRIPTION:Dear students\,\n\nSome of you have already uploaded your draft
+ s to the shared GoogleDocs folder--thank you! For those of you who have not
+ \, could you please do so by the end of the day?\n\nAlso\, because of growi
+ ng security concerns with Zoom\, I have decided to use a European-based vid
+ eo conferencing platform that seems to adhere more closely to European stan
+ dards of privacy and security. You can join by going to this link: https://
+ whereby.com/racloutier\n\nI hope that everyone is doing well\, and we will 
+ see each other this Friday.\n\nBest regards\,\n\nRobert Cloutier\n\n\n=====
+ =====================================\n\nKeep in mind that this meeting wil
+ l take place online at this location<https://uva-live.zoom.us/j/7250087987>
+ . You should just be able to click the link and join the meeting. You can a
+ lso install the Zoom app onto an internet-enabled device and join the meeti
+ ng that way.\n\nBefore Meeting 1\, be sure to do the following:\n\n  *   St
+ art a draft of your thesis as a GoogleDoc in this folder<https://drive.goog
+ le.com/open?id=17HffPqGdaH0LGHVWJg86WfNjwdZ9tFML>. Be sure to use your name
+  as the title for your document.\n  *   Be sure to review the thesis guide 
+ for the first meeting<https://drive.google.com/open?id=1yeCPDlbG-kMf0u4Vqjs
+ j9FL9q5qbIh7i> as soon as possible--this gives you a number of tips and sug
+ gestions for writing the two sections that we will be discussing during the
+  first meeting.\n  *   In your GoogleDoc\, write a draft of the Literature 
+ Review and Methodology sections of your paper (note that you should NOT sub
+ mit an abstract or introduction) by the evening of Tuesday\, . The more com
+ plete it is\, the better for you--keep in mind that you will only get feedb
+ ack once per section. [As I understand it\, you should be finished with at 
+ least one of these two sections\, as this is what you had to submit for the
+  Research Seminar--include that and revise as necessary.]\n\nI hope that ev
+ eryone is doing well and keeping safe. I am looking forward to seeing how e
+ veryone is progressing!\n\nIf you would like to have a quick meeting with m
+ e beforehand\, do not hesitate to contact me.\n\n
+LAST-MODIFIED:20230124T161048Z
+LOCATION:https://whereby.com/racloutier
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Cloutier's BA Thesis Cohort 2020
+TRANSP:OPAQUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://whereby.com/racloutier
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-OWNERAPPTID:2118389023
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONSOURCE:None
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170223T153000Z
+DTEND:20170223T163000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=ronkoppies@kop-zorg.nl:mailto:ronkoppies@kop-zorg.nl
+UID:04t88egup2aresbbho7m1hrj20@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ronkop
+ pies@kop-zorg.nl;X-NUM-GUESTS=0:mailto:ronkoppies@kop-zorg.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=se
+ bastiaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail
+ .com
+CREATED:20170131T103633Z
+LAST-MODIFIED:20230124T161049Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bas S bij Ron 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20210401T130000Z
+DTEND:20210401T150000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E0080000000043DF5ADC9B20D701000000000000000
+ 010000000A0193398E5E0D141A09D5621B8E8BCB4
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ge
+ orge Bloem;X-NUM-GUESTS=0:mailto:george2city@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ju
+ lia Smeets;X-NUM-GUESTS=0:mailto:julia.smeets@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Lo
+ yde Silva;X-NUM-GUESTS=0:mailto:loyde.ls@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaan.schneider@student.uva.n
+ l
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Be
+ n Groot;X-NUM-GUESTS=0:mailto:bengroot12@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ch
+ inouk Lindt;X-NUM-GUESTS=0:mailto:chinouklindt@outlook.com
+CREATED:20210324T105823Z
+DESCRIPTION:Dear researchers\, Based on the responses to the Doodle poll\, 
+ it seems that Thursday\, 1 April worked best. I choose a time in the aftern
+ oon. Could you please accept or decline this invitation so I have an idea o
+ f who will be taking part in the session? If you are NOT taking part in the
+  English Research Seminar\, could you please send me your draft of the theo
+ retical embedding by Monday? For the rest of you\, good luck on your final 
+ submission for the English Research Seminar! I’m curious to see what you wi
+ ll be submitting! Best regards\, Robert Cloutier\n_________________________
+ _______________________________________________________\nMicrosoft Teams-ve
+ rgadering\nNeem deel via uw computer of mobiele app\nKlik hier om deel te n
+ emen aan de vergadering<https://teams.microsoft.com/l/meetup-join/19%3ameet
+ ing_ZjQ2ODJkMDUtMDhlZS00YmIxLWIyNTQtZjM1MzU5ZjkyY2Mz%40thread.v2/0?context=
+ %7b%22Tid%22%3a%22a0f1cacd-618c-4403-b945-76fb3d6874e5%22%2c%22Oid%22%3a%22
+ f67dbe3b-158a-4312-b9d2-7681365ceea7%22%7d>\nMeer informatie<https://aka.ms
+ /JoinTeamsMeeting> | Opties voor vergadering<https://teams.microsoft.com/me
+ etingOptions/?organizerId=f67dbe3b-158a-4312-b9d2-7681365ceea7&tenantId=a0f
+ 1cacd-618c-4403-b945-76fb3d6874e5&threadId=19_meeting_ZjQ2ODJkMDUtMDhlZS00Y
+ mIxLWIyNTQtZjM1MzU5ZjkyY2Mz@thread.v2&messageId=0&language=nl-NL>\n________
+ ________________________________________________________________________\n
+LAST-MODIFIED:20230124T161050Z
+LOCATION:https://uva-live.zoom.us/j/82109898720
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BA Thesis Session 1: Theoretical Embedding
+TRANSP:OPAQUE
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_ZjQ2ODJkMDUtMDhlZS00YmI
+ xLWIyNTQtZjM1MzU5ZjkyY2Mz@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"privat
+ e":true\,"type":0}
+X-MICROSOFT-CDO-OWNERAPPTID:2119418947
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/a0f1cacd-618c-4403-b945-76fb3d6874e5/f67dbe3b-158a-4312-b9d2-76
+ 81365ceea7/19_meeting_ZjQ2ODJkMDUtMDhlZS00YmIxLWIyNTQtZjM1MzU5ZjkyY2Mz@thre
+ ad.v2/0
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/j/82109898720
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:r.a.cloutier@uva.nl\;gruu\;opaqu
+ e=app:conf:focus:id:teams:2:0!19:meeting_ZjQ2ODJkMDUtMDhlZS00YmIxLWIyNTQtZj
+ M1MzU5ZjkyY2Mz-thread.v2!f67dbe3b158a4312b9d27681365ceea7!a0f1cacd618c4403b
+ 94576fb3d6874e5
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/j/821098987
+ 20"\,"LocationAnnotation":""\,"LocationSource":1\,"LocationUri":""\,"Latitu
+ de":0.0\,"Longitude":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddr
+ ess":""}]
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_ZjQ2ODJkMDUtMDhlZS00YmIxLWIyNTQtZjM1MzU5ZjkyY2Mz%40thread.v2/0
+ ?context=%7b%22Tid%22%3a%22a0f1cacd-618c-4403-b945-76fb3d6874e5%22%2c%22Oid
+ %22%3a%22f67dbe3b-158a-4312-b9d2-7681365ceea7%22%7d
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131030T090000Z
+DTEND:20131030T093000Z
+DTSTAMP:20240328T131943Z
+UID:A5A3B295-E4E1-461B-ADC5-CA232FCE4261
+CREATED:20131024T081858Z
+LAST-MODIFIED:20230124T161051Z
+LOCATION:Autstekend
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraak Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131107T153000Z
+DTEND:20131107T160000Z
+DTSTAMP:20240328T131943Z
+UID:5E743F6B-10C8-43B2-8A0D-960140617D5C
+URL:message:%3C5E0AD3004985A34FBD4519A76728EB09137EDD3E@MBX01.uva.nl%3E
+CREATED:20131105T170538Z
+LAST-MODIFIED:20230124T161052Z
+LOCATION:Bungehuis 4.03
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Tutorgesprek Manon van der Laaken
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150627T160000Z
+DTEND:20150628T100000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=jamydegroot@gmail.com:mailto:jamydegroot@gmail.com
+UID:gqm7esb56blnlgtfvtjdtudk1s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Robin 
+ Scheiuit;X-NUM-GUESTS=0:mailto:rscheiuit@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Mart S
+ cheepers;X-NUM-GUESTS=0:mailto:scheepers.mart@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=Bas Me
+ rkies;X-NUM-GUESTS=0:mailto:bmerkies@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ma
+ rk@jawswaterpolo.nl;X-NUM-GUESTS=0:mailto:mark@jawswaterpolo.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=danny@
+ jawswaterpolo.nl;X-NUM-GUESTS=0:mailto:danny@jawswaterpolo.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=re
+ mco@jawswaterpolo.nl;X-NUM-GUESTS=0:mailto:remco@jawswaterpolo.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ma
+ arten Scheiuit;X-NUM-GUESTS=0:mailto:maarten.scheiuit@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=jamyde
+ groot@gmail.com;X-NUM-GUESTS=0:mailto:jamydegroot@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Daniel
+  Gulpers;X-NUM-GUESTS=0:mailto:daniel.gulpers@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=fe
+ derico@jawswaterpolo.nl;X-NUM-GUESTS=0:mailto:federico@jawswaterpolo.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=di
+ ego@waterpolo.nl;X-NUM-GUESTS=0:mailto:diego@waterpolo.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ma
+ rkwever7@gmail.com;X-NUM-GUESTS=0:mailto:markwever7@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=sebast
+ iaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CREATED:20150418T204610Z
+LAST-MODIFIED:20230124T161053Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Jaws uitjn
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150330T133000Z
+DTEND:20150330T134500Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=414iiti1a48cmharq40u4be2t0@group.calendar.google.com:mailto:41
+ 4iiti1a48cmharq40u4be2t0@group.calendar.google.com
+UID:lqo8fmctk7p91mef8ti6gvgsfg@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=sebast
+ iaanschneider@gmail.com;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CREATED:20150329T175915Z
+DESCRIPTION:Reinier Claeszenstraat 16-2\, 0643903149\n\nsebastiaanschneider
+ @gmail.com | Bas Schneider\n\nBinnen- en buitenb. €26 .- met antilek-laag\n
+ Is het mogelijk om de buitenband op misschien te zetten? Ik zie namelijk ze
+ lf geen beschadigingen aan de buitenband\, maar heb wel kort geleden mijn b
+ and ook al geplakt\, dus misschien dat het wel nuttig is! \nBandplak 13\,-\
+ nPin\n
+LAST-MODIFIED:20230124T161054Z
+LOCATION:Reinier Claeszenstraat 16\, 1056 Amsterdam\, Nederland
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Reinier Claeszenstraat 16-2\, 0643903149
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131024T133000Z
+DTEND:20131024T143000Z
+DTSTAMP:20240328T131943Z
+UID:5C7B3885-A6D8-451F-ADB8-C6F96601B10B
+CREATED:20131017T081804Z
+LAST-MODIFIED:20230124T161055Z
+LOCATION:Thuis
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20210521T083000Z
+DTEND:20210521T103000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E008000000000540F6F6AE4CD701000000000000000
+ 010000000AB280BF76B1DBA498488CCE76BABB5F2
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ge
+ orge2city@gmail.com;X-NUM-GUESTS=0:mailto:george2city@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ju
+ lia Smeets;X-NUM-GUESTS=0:mailto:julia.smeets@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Lo
+ yde Silva;X-NUM-GUESTS=0:mailto:loyde.ls@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Be
+ n Groot;X-NUM-GUESTS=0:mailto:bengroot12@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ch
+ inouk Lindt;X-NUM-GUESTS=0:mailto:chinouklindt@outlook.com
+CREATED:20210519T130303Z
+DESCRIPTION:Dear everyone\,\n\nHopefully you can make it to the third sessi
+ on this Friday. Please send me your drafts sometime tomorrow.\n\nIf you did
+  not submit a draft of the methodology section\, you can submit that in add
+ ition to or instead of a draft of the results\, analysis\, and discussion.\
+ n\nBest regards\,\n\nRobert Cloutier\n
+LAST-MODIFIED:20230124T161056Z
+LOCATION:https://uva-live.zoom.us/j/82109898720
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BA Thesis session 3: Results\, analysis and discussion
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-OWNERAPPTID:2119539973
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/j/82109898720
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/j/821098987
+ 20"\,"LocationAnnotation":""\,"LocationSource":1\,"LocationUri":""\,"Latitu
+ de":0.0\,"Longitude":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddr
+ ess":""}]
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20131007T080000Z
+DTEND:20131007T083000Z
+DTSTAMP:20240328T131943Z
+UID:78BAAB6D-6A3F-44B1-9ED3-90B2DA7992C7
+CREATED:20130930T084921Z
+LAST-MODIFIED:20230124T161057Z
+LOCATION:thuis
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Afspraak Marit
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230425T110000Z
+DTEND:20230425T130000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E00800000000C319D5C8A476D901000000000000000
+ 01000000034CED332B8D7C342A19BEAAC91E2934B
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=An
+ gelica Chatzoudis;X-NUM-GUESTS=0:mailto:angelicachatzoudis@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ni
+ na Soels;X-NUM-GUESTS=0:mailto:catharinasoels@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=El
+ if Deniz;X-NUM-GUESTS=0:mailto:elif.deniz@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ma
+ arten Schaafsma;X-NUM-GUESTS=0:mailto:jpmaarten@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ju
+ lia Blomberg;X-NUM-GUESTS=0:mailto:juliablomberg@live.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=mi
+ tch Vermeer;X-NUM-GUESTS=0:mailto:mvermeer1305@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaan.schneider@student.uva.n
+ l
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;CN=Sebas
+ tiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ju
+ lia Blomberg;X-NUM-GUESTS=0:mailto:julia.blomberg@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ma
+ arten Schaafsma;X-NUM-GUESTS=0:mailto:maarten.schaafsma@student.uva.nl
+CREATED:20230424T130951Z
+DESCRIPTION:Dear thesis writers\,\n\nI have reserved PCH 537 from 1:00-3:00
+  pm tomorrow\, Tuesday\, 25 April for our first BA thesis session. Please a
+ ccept this invitation to confirm your attendance. If you cannot come to PCH
+  for the session but would like to take part\, let me know\, and I will try
+  to do it as a hybrid session.\n\nLet me know if you have any specific ques
+ tions that you would like me to be sure to cover—these can be general quest
+ ions about the sections themselves or specific to your individual draft/the
+ sis process.\n\nSee you tomorrow!\n\nBest regards\,\n\nRobert Cloutier\n
+LAST-MODIFIED:20230424T173434Z
+LOCATION:PCH 537
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BA Thesis session 1
+TRANSP:OPAQUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:PCH 537
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"PCH 537"\,"LocationAnnotation":""\,"
+ LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"LocationState":""
+ \,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddress":""}]
+X-MICROSOFT-CDO-OWNERAPPTID:2121582275
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONSOURCE:None
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230522T080000Z
+DTEND:20230522T100000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E0080000000054A164DA1A82D901000000000000000
+ 010000000E3233A3CFBE97F46A594E725C92F66D5
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=An
+ gelica Chatzoudis;X-NUM-GUESTS=0:mailto:angelicachatzoudis@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ni
+ na Soels;X-NUM-GUESTS=0:mailto:catharinasoels@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=El
+ if Deniz;X-NUM-GUESTS=0:mailto:elif.deniz@student.uva.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ma
+ arten Schaafsma;X-NUM-GUESTS=0:mailto:jpmaarten@hotmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Ju
+ lia Blomberg;X-NUM-GUESTS=0:mailto:juliablomberg@live.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=mi
+ tch Vermeer;X-NUM-GUESTS=0:mailto:mvermeer1305@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaan.schneider@student.uva.n
+ l
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;CN=Sebas
+ tiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Mi
+ tch Vermeer;X-NUM-GUESTS=0:mailto:mitch.vermeer@student.uva.nl
+CREATED:20230512T113147Z
+DESCRIPTION:Dear thesis writers\,\n\nI hope that everyone has been able to 
+ make progress.\n\nThe next group thesis session will take place on Monday\,
+  22 May at from 10:00 am to 12:00 pm (i.e.\, noon) in PCH 537. Please send 
+ me drafts of your results\, analysis\, and discussion as well as (revised) 
+ versions of your research embedding and methodology by Wednesday\, 17 May\,
+  just before the holiday. If you do not have plans for the holiday and don’
+ t mind continuing working on your thesis\, then it is fine if you send me y
+ our draft by Friday\, 19 May—I just didn’t want to assign the deadline duri
+ ng the holiday.\n\nIf there are particular issues that you are having with 
+ your thesis or questions that you have\, please send them to me in your mes
+ sage when you send your draft—that way we can incorporate it into the sessi
+ on if it is of a general nature. For those of you are presenting (some of) 
+ your results in a table\, chart\, or graph\, please review the APA guidelin
+ es<https://apastyle.apa.org/style-grammar-guidelines/tables-figures> for th
+ ese—you can find these on the APA style webpage if you access it through th
+ e university’s network\, either on campus or via the UvAVPN.\n\nFor those o
+ f you have not submitted any drafts to me as of yet\, could you please upda
+ te me on your progress\, and whether you are planning on postponing submitt
+ ing your thesis or not?\n\nPlease accept this email invitation to confirm t
+ hat you will attend the session—it  will then appear in your digital calend
+ ar if you have one.\n\nHave a nice weekend!\n\nBest regards\,\n\nRobert Clo
+ utier\n\n\n
+LAST-MODIFIED:20230512T203821Z
+LOCATION:PCH 537
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BA Thesis session 2
+TRANSP:OPAQUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:PCH 537
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"PCH 537"\,"LocationAnnotation":""\,"
+ LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"LocationState":""
+ \,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddress":""}]
+X-MICROSOFT-CDO-OWNERAPPTID:2121616980
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONSOURCE:None
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230608T093000Z
+DTEND:20230608T103000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=r.a.cloutier@uva.nl:mailto:r.a.cloutier@uva.nl
+UID:040000008200E00074C5B7101A82E00800000000F791CC1F2299D901000000000000000
+ 010000000A9F714EF2151994DB1C5B9FBC678DE96
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CREATED:20230607T092623Z
+DESCRIPTION:Dear Sebastiaan\,\nThis is an email invitation for a Zoom meeti
+ ng (https://uva-live.zoom.us/my/racloutier) on Thursday\, 8 June at 11:30 a
+ m to discuss the draft of your thesis. Please accept this invitation to con
+ firm.\nBest regards\,\nRobert Cloutier\nVan: Sebastiaan Schneider \n\nDatum
+ : dinsdag\, 6 juni 2023 om 08:48\nAan: Robert Cloutier \n\nOnderwerp: Re: T
+ hesis Progress\nDear dr. Cloutier\,\n\nThank you for the quick response!\n\
+ nThursday morning is absolutely fine\; I’m glad to be able to meet at all!\
+ nBy then I should have a more refined (not to mention completed) version as
+  well\, so that’s great. I’ll send you the most recent version on Wednesday
+  night\, but should you wish to look at it before then\, I am still updatin
+ g the individual chapters on the google drive that I use (https://drive.goo
+ gle.com/drive/folders/1ypn0zs5Q0mA2unSQsONuSeSszUJuEGc7?usp=drive_link).\n\
+ nI will see you on Thursday morning\, then\, and I wish you a swift recover
+ y!\n\nAll the best\,\nSebastiaan Schneider\n10554769\n\n\nOn 6 Jun 2023\, a
+ t 05:02\, Robert Cloutier \n wrote:\n﻿\nDear Sebastiaan\,\n\nI was pleasant
+ ly surprised to receive your email—I’m glad that you have been able to make
+  some progress on your thesis. I do have a lot of meetings set up this week
+  already—the soonest I would be able to meet (via Zoom) would be on Thursda
+ y\, which is only one day before the deadline. It would be tight\, but woul
+ d Thursday morning work for you?\n\nBest regards\,\n\nRobert Cloutier\n\n\n
+ \n<https://www.uva.nl/en/about-the-uva/organisation/faculties/faculty-of-hu
+ manities/homepage.html>\nDr. Robert A. Cloutier /ˈɹɑbɚt kluˈtje/ (he/him)\n
+ Lecturer of English Linguistics\, BA English Language & Culture<https://www
+ .uva.nl/shared-content/programmas/en/bachelors/english-language-and-culture
+ /english-language-and-culture.html>\nCoordinator\, MA Language & Society<ht
+ tps://www.uva.nl/en/programmes/masters/language-and-society-linguistics/lan
+ guage-and-society.html>\nCoordinator\, MA Language\, Literature & Education
+ <https://www.uva.nl/en/programmes/masters/language-and-education-linguistic
+ s/linguistics-language-and-education.html>\nRepresentative\, BA Examination
+ s Board<https://student.uva.nl/en/topics/examinations-board>\nEnglish Langu
+ age Policy Consultant\, Teaching and Learning Centre<https://tlc.uva.nl/>\n
+ Penningmeester\, Vereniging van Oudgermanisten<https://www.oudgermanisten.c
+ om/>\nUniversiteit van Amsterdam\n\n\nr.a.cloutier@uva.nl\n\n\n\n+312052538
+ 36\n\n\n\nFaculty of Humanities\nDepartment of Modern Foreign Languages and
+  Cultures\nSpuistraat 134\, room 5.40\n1012 VB Amsterdam\nNetherlands\n\n\n
+ uva.nl<https://www.uva.nl/en/about-the-uva/organisation/faculties/faculty-o
+ f-humanities/homepage.html>\n\n<https://www.linkedin.com/in/robert-cloutier
+ -61b632/>\nThe content of this email is confidential and intended for the r
+ ecipient specified in message only. It is strictly forbidden to share any p
+ art of this message with any third party\, without a written consent of the
+  sender. If you received this message by mistake\, please reply to this mes
+ sage and follow with its deletion\, so that we can ensure such a mistake do
+ es not occur in the future.\n\n\nCreated with Signature Hound<https://signa
+ turehound.com/>\n\n\nVan: Sebastiaan Schneider \n\nDatum: dinsdag\, 6 juni 
+ 2023 om 02:24\nAan: Robert Cloutier \n\nOnderwerp: Thesis Progress\nDear dr
+ . Cloutier\,\n\nI’m sure you no longer expect me to hand in my thesis in th
+ e current semester (I had almost given up myself)\, but I have finally mana
+ ged to become productive and would very much like to make a genuine attempt
+  at finishing before next Friday.\n\nI more or less assume you won’t have m
+ uch\, if any\, time to go through my work at this point due to scheduling\,
+  but I wanted to at least let you know beforehand and give you an update on
+  my progress.\nI have attached my current working draft\, which is by no me
+ ans finished\, but it has the basis for each chapter except the discussion\
+ , for which I currently have my bullet points. I have applied all of your c
+ omments to the literature and methodology chapters\, and\, though they are 
+ still very messy\, I believe they fundamentally have everything that needs 
+ to be in there\, so please excuse the form to some extent.\n\nIf you could 
+ give me some feedback on the contents of the results and analysis chapters\
+ , that would me greatly appreciated. A friend of mine is going to look thro
+ ugh my work to advice on the structure and form\, so I believe that is less
+  important.\n\nPlease also let me know if there is anything else I should t
+ ake into account. I saw you had created a Teams group where you shared thin
+ gs with other students\, so I’m not sure if I’ve missed anything. If so\, I
+  will try to get it done as soon as possible.\n\nThanks in advance.\n\nAll 
+ the best\,\nSebastiaan Schneider\n10554769\n
+LAST-MODIFIED:20230607T094411Z
+LOCATION:https://uva-live.zoom.us/my/racloutier
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BA Thesis Sebastiaan Schneider
+TRANSP:OPAQUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:https://uva-live.zoom.us/my/racloutier
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"https://uva-live.zoom.us/my/raclouti
+ er"\,"LocationAnnotation":""\,"LocationSource":1\,"LocationUri":""\,"Latitu
+ de":0.0\,"Longitude":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddr
+ ess":""}]
+X-MICROSOFT-CDO-OWNERAPPTID:2121678583
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20230705
+DTEND;VALUE=DATE:20230706
+RRULE:FREQ=YEARLY
+DTSTAMP:20240328T131943Z
+UID:5CFBD834-8528-425C-9806-64DC1B2DAE72
+CREATED:20230704T155326Z
+LAST-MODIFIED:20230704T155326Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Naoko Day
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230705T080000Z
+DTEND:20230705T090000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=femke@partnerinwerk.nl:mailto:femke@partnerinwerk.nl
+UID:040000008200E00074C5B7101A82E0080000000050A73A5769AAD901000000000000000
+ 010000000A6F2125422D8AC46A50C2029909D7C79
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Se
+ bastiaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=da
+ ve.leeflang@heldeninit.nl;X-NUM-GUESTS=0:mailto:dave.leeflang@heldeninit.nl
+CREATED:20230705T075851Z
+DESCRIPTION:\n_____________________________________________________________
+ ___________________\nMicrosoft Teams-vergadering\nNeem deel vanaf uw comput
+ er\, mobiele app of apparaat voor vergaderruimte\nKlik hier om deel te neme
+ n aan de vergadering<https://teams.microsoft.com/l/meetup-join/19%3ameeting
+ _MmFkNDFiZDQtZDQzYy00MjNhLTliYzYtNGRkYWU2NzdkZTQ4%40thread.v2/0?context=%7b
+ %22Tid%22%3a%224053a476-3353-4ae7-a904-d4636676a3d5%22%2c%22Oid%22%3a%22c47
+ be60e-e7b5-4699-b419-20b86bdb54cf%22%7d>\nVergadering-id: 375 145 093 291\n
+ Wachtwoordcode: 7PebFQ\nTeams downloaden<https://www.microsoft.com/en-us/mi
+ crosoft-teams/download-app> | Deelnemen op het web<https://www.microsoft.co
+ m/microsoft-teams/join-a-meeting>\nMeer informatie<https://aka.ms/JoinTeams
+ Meeting> | Opties voor vergadering<https://teams.microsoft.com/meetingOptio
+ ns/?organizerId=c47be60e-e7b5-4699-b419-20b86bdb54cf&tenantId=4053a476-3353
+ -4ae7-a904-d4636676a3d5&threadId=19_meeting_MmFkNDFiZDQtZDQzYy00MjNhLTliYzY
+ tNGRkYWU2NzdkZTQ4@thread.v2&messageId=0&language=nl-NL>\n__________________
+ ______________________________________________________________\n\n
+LAST-MODIFIED:20230705T075857Z
+LOCATION:hoornse hop
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Sebastiaan Dave en Femke
+TRANSP:OPAQUE
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MmFkNDFiZDQtZDQzYy00MjN
+ hLTliYzYtNGRkYWU2NzdkZTQ4@thread.v2"\,"private":true\,"type":0\,"mid":0\,"r
+ id":0\,"uid":null}
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-OWNERAPPTID:1858435047
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://dogfood-api.scheduler.teams.
+ microsoft.com/teams/4053a476-3353-4ae7-a904-d4636676a3d5/c47be60e-e7b5-4699
+ -b419-20b86bdb54cf/19_meeting_MmFkNDFiZDQtZDQzYy00MjNhLTliYzYtNGRkYWU2NzdkZ
+ TQ4@thread.v2/0
+X-MICROSOFT-LOCATIONDISPLAYNAME:hoornse hop
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:2
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"hoornse hop"\,"LocationAnnotation":"
+ "\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"LocationState
+ ":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAddress":
+ ""}]
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MmFkNDFiZDQtZDQzYy00MjNhLTliYzYtNGRkYWU2NzdkZTQ4%40thread.v2/0
+ ?context=%7b%22Tid%22%3a%224053a476-3353-4ae7-a904-d4636676a3d5%22%2c%22Oid
+ %22%3a%22c47be60e-e7b5-4699-b419-20b86bdb54cf%22%7d
+X-MICROSOFT-LOCATIONSOURCE:None
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230921T080000Z
+DTEND:20230921T093000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=dave.leeflang@heldeninit.nl:mailto:dave.leeflang@heldeninit.nl
+UID:040000008200E00074C5B7101A82E00800000000E0BD6DC02BE6D901000000000000000
+ 010000000AFF38FA0C08D2543A3D943B2B4D1AE18
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=dave.l
+ eeflang@heldeninit.nl;X-NUM-GUESTS=0:mailto:dave.leeflang@heldeninit.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+CREATED:20230918T070702Z
+DESCRIPTION:\n\nHieronder de links naar de oefentesten.\n2 van de 3 testen 
+ kan je hier oefenen\n\n Gratis Oefentesten | Ixly<https://www.ixly.com/nl/o
+ efentesten>\nFigurenreeksen\nStroomdiagrammen\n\nMet vriendelijke groet\,\n
+ Dave Leeflang\n\n[Afbeelding met tekst\, illustratie\, tafelgerei  Automati
+ sch gegenereerde beschrijving]\n\nwww.stichtingheldeninit.nl<https://sticht
+ ingheldeninit.nl/> | info@stichtingheldeninit.nl<mailto:info@stichtinghelde
+ ninit.nl>\nTel. +31 085 070 5828  - +31 (0)6 18 58 75 01\nBezoekadres hoofd
+ kantoor: Einsteinstraat 14a 1821 BZ Alkmaar\n\n\n
+LAST-MODIFIED:20230918T074337Z
+LOCATION:Maelsonstraat 12\, 1624 NP Hoorn
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:2e afspraak Sebastiaan
+TRANSP:OPAQUE
+ATTACH;FILENAME=image001.jpg:https://mail.google.com/?view=att&th=18aa71d4c
+ ecad5cf&attid=0.1&disp=attd&zw
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Maelsonstraat 12\, 1624 NP Hoorn
+ "\, "LocationAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false
+ \, "LocationUri" : "" } ]
+X-MICROSOFT-CDO-OWNERAPPTID:-1448241177
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230928T070000Z
+DTEND:20230928T080000Z
+DTSTAMP:20240328T131943Z
+ORGANIZER;CN=dave.leeflang@heldeninit.nl:mailto:dave.leeflang@heldeninit.nl
+UID:040000008200E00074C5B7101A82E0080000000040A955C77CECD901000000000000000
+ 0100000006639FE2746555648AA6A3D589DE5C3A8
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=dave.l
+ eeflang@heldeninit.nl;X-NUM-GUESTS=0:mailto:dave.leeflang@heldeninit.nl
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Sebast
+ iaan Schneider;X-NUM-GUESTS=0:mailto:sebastiaanschneider@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=Fe
+ mke Schol;X-NUM-GUESTS=0:mailto:femke@partnerinwerk.nl
+CREATED:20230921T091559Z
+DESCRIPTION:\n
+LAST-MODIFIED:20230921T140719Z
+LOCATION:Maelsonstraat 12\, 1624 NP Hoorn
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Assessment Sebastiaan doornemen - Femke
+TRANSP:OPAQUE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Maelsonstraat 12\, 1624 NP Hoorn
+ "\, "LocationAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false
+ \, "LocationUri" : "" } ]
+X-MICROSOFT-CDO-OWNERAPPTID:1349883879
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+END:VEVENT
+END:VCALENDAR

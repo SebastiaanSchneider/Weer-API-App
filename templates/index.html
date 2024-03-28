@@ -21,7 +21,18 @@
             {% for key, value in data["current"].items() %}
             <tr>
                 <td>{{ key }}</td>
+                {% if type(value) is dict %}
+                <td></td>
+                    {% for i, j in value.items() %}
+                    <tr>
+                        <td></td>
+                        <td>{{ i }}</td>
+                        <td>{{ j }}</td>
+                    </tr>
+                    {% endfor %}
+                {% else %}
                 <td>{{ value }}</td>
+                {% endif %}
             </tr>
             {% endfor %}
         </tbody>
