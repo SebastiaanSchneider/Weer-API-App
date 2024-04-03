@@ -4,9 +4,12 @@ verwerk data
 exporteer data naar calender
 geef data weer
 """
-from pickle import TRUE
-from flask import Flask, g, jsonify, render_template, request
-import datetime
+from datetime import datetime
+from flask import Flask, g, jsonify, render_template, request, Response
+from icalendar import Calendar, Event, vCalAddress, vText
+from pathlib import Path
+import pytz
+import os
 import requests
 
 
@@ -30,6 +33,57 @@ def get_weer():
                                locatie=locatie)
     else:
         return "big sad, no data"
+
+@app.route('/ical')
+def geef_agenda_feed():
+    ical = '''BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:test
+X-WR-TIMEZONE:Europe/Amsterdam
+BEGIN:VEVENT
+DTSTART:20240403T080000Z
+DTEND:20240403T100000Z
+DTSTAMP:20240403T080705Z
+UID:2c925eh6840mpla95ioc1gkrm4@google.com
+CREATED:20240403T080016Z
+LAST-MODIFIED:20240403T080034Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Zonnig 20graden
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240403T100000Z
+DTEND:20240403T110000Z
+DTSTAMP:20240403T080705Z
+UID:30c52im316ahn415bd507uievp@google.com
+CREATED:20240403T080051Z
+LAST-MODIFIED:20240403T080051Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Kankerheet 36graden
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240403T110000Z
+DTEND:20240403T130000Z
+DTSTAMP:20240403T080705Z
+UID:500ed7m8kebgu0544j5lu6i4rj@google.com
+CREATED:20240403T080112Z
+LAST-MODIFIED:20240403T080112Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Helemaal kutweer 5 graden
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+'''
+
+    return Response(ical, mimetype='text/calendar')
 
 
 if __name__ == '__main__':
