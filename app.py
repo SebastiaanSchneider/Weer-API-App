@@ -52,6 +52,7 @@ def geef_agenda_feed():
         for hour in day['hour']:
             # opzet componenten
             event = Event()
+            uid = str(uuid.uuid4())  # willekeurige uid voor elk uur aan
             start = hour['time']
             
             # split de componenten van de data en tijden
@@ -65,9 +66,6 @@ def geef_agenda_feed():
             time_hour = int(start[3])
             time_minute = int(start[4])
  
-            # maak een willekeurige uid voor elk uur aan
-            uid = str(uuid.uuid4())
-
             # opzet en verwerking van de individuele informatiepunten
             dauwpunt = str(hour['dewpoint_c']) + " C"
             gevoelstemperatuur = str(hour['feelslike_c']) + " C"
