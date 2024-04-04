@@ -28,7 +28,7 @@ def get_weer():
     if data:
         datum = datetime.now()
         locatie = data['location']['name']
-        return render_template("index.html", data=data, datum=datum, 
+        return render_template("index.html", data=data, datum=datum,
                                locatie=locatie)
     else:
         return "big sad, no data"
@@ -54,7 +54,7 @@ def geef_agenda_feed():
             event = Event()
             uid = str(uuid.uuid4())  # willekeurige uid voor elk uur aan
             start = hour['time']
-            
+
             # split de componenten van de data en tijden
             delimiters = ["-", " ", ":"]
             for delimiter in delimiters:
@@ -65,7 +65,7 @@ def geef_agenda_feed():
             day = int(start[2])
             time_hour = int(start[3])
             time_minute = int(start[4])
- 
+
             # opzet en verwerking van de individuele informatiepunten
             dauwpunt = str(hour['dewpoint_c']) + " C"
             gevoelstemperatuur = str(hour['feelslike_c']) + " C"
@@ -84,25 +84,25 @@ def geef_agenda_feed():
 
             # header van elk agenda punt met hoofd informatie
             weer_kop = ("Vooruitzicht: " + text + " bij " + temperatuur +
-                        " met " + regen_kans + " kans op regen en gemiddeld " + 
+                        " met " + regen_kans + " kans op regen en gemiddeld " +
                         neerslag + " neerslag.")
             # omschrijving van elk agenda punt met verdere details
-            weerbericht = ("Gevoelstemperatuur: " + gevoelstemperatuur + 
-                           "\nDauwpunt: " + dauwpunt + 
+            weerbericht = ("Gevoelstemperatuur: " + gevoelstemperatuur +
+                           "\nDauwpunt: " + dauwpunt +
                            "\nLuchtvochtigheid: " + luchtvochtigheid +
                            "\nLuchtdruk: " + luchtdruk +
                            "\nUV Straling: " + uv +
                            "\nZicht: " + zicht +
                            "\nWindrichting: " + windrichting +
                            "\nWind Snelheid: " + wind_snelheid +
-                           "\nWindstoten: " + windstoten + 
+                           "\nWindstoten: " + windstoten +
                            "\nWind Temperatuur: " + wind_temp)
 
             # aanmaak componenten
-            event.add('dtstart', datetime(year, month, day, time_hour, 
+            event.add('dtstart', datetime(year, month, day, time_hour,
                                           time_minute, 0, tzinfo = 
                                           pytz.timezone('Europe/Amsterdam')))
-            event.add('dtend', datetime(year, month, day, (time_hour + 1) % 24, 
+            event.add('dtend', datetime(year, month, day, (time_hour + 1) % 24,
                                         time_minute, 0, tzinfo = 
                                         pytz.timezone('Europe/Amsterdam')))
             event['uid'] = uid
