@@ -122,8 +122,14 @@ def agenda_feed_filter(filter):
         # opzet filter voor locatie
         locatie = filter.split("=")[1]
         data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=007ca694539c40549f8105112242603&q=" + locatie + "&days=7&aqi=no&alerts=no").json()  # noqa
+        print("http://api.weatherapi.com/v1/forecast.json?key=007ca694539c40549f8105112242603&q=" +
+              locatie + "&days=7&aqi=no&alerts=no")
+        verhouding = False
+        variabele = False
+        waarde = False
     else:
         data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=007ca694539c40549f8105112242603&q=Purmerend&days=7&aqi=no&alerts=no").json()  # noqa
+        print("http://api.weatherapi.com/v1/forecast.json?key=007ca694539c40549f8105112242603&q=Purmerend&days=7&aqi=no&alerts=no")
         
         # opzet filter voor variabele
         if "=" in filter:
