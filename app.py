@@ -190,10 +190,10 @@ def agenda_feed_filter(filter):
                         " mm neerslag.")
             
             # omschrijving van elk agenda punt met verdere details
-            weerbericht = ("Gevoelstemperatuur: " + str(gevoelstemperatuur) + " C" +
-                           "\nDauwpunt: " + str(dauwpunt) + " C" +
-                           "\nLuchtvochtigheid: " + str(luchtvochtigheid) + "%" +
-                           "\nLuchtdruk: " + str(luchtdruk) + " mB" +
+            weerbericht = ("Gevoelstemperatuur: " + str(gevoelstemperatuur) + 
+                           " C" + "\nDauwpunt: " + str(dauwpunt) + " C" +
+                           "\nLuchtvochtigheid: " + str(luchtvochtigheid) + 
+                           "%" + "\nLuchtdruk: " + str(luchtdruk) + " mB" +
                            "\nUV Straling: " + str(uv) +
                            "\nZicht: " + str(zicht) + " km" +
                            "\nWindrichting: " + windrichting +
@@ -213,7 +213,37 @@ def agenda_feed_filter(filter):
 
 
             # uitvoering filter, voeg event alleen to als filter het toelaat
-            if variabele == "Gevoelstemperatuur":
+            if variabele == "Temperatuur":
+                if verhouding == "=":
+                    if temperatuur == waarde:
+                        cal.add_component(event)
+                elif verhouding == "<":
+                    if temperatuur < waarde:
+                        cal.add_component(event)
+                elif verhouding == ">":
+                    if temperatuur > waarde:
+                        cal.add_component(event)
+            elif variabele == "Regenkans":
+                if verhouding == "=":
+                    if regen_kans == waarde:
+                        cal.add_component(event)
+                elif verhouding == "<":
+                    if regen_kans < waarde:
+                        cal.add_component(event)
+                elif verhouding == ">":
+                    if regen_kans > waarde:
+                        cal.add_component(event)
+            elif variabele == "Neerslag":
+                if verhouding == "=":
+                    if neerslag == waarde:
+                        cal.add_component(event)
+                elif verhouding == "<":
+                    if neerslag < waarde:
+                        cal.add_component(event)
+                elif verhouding == ">":
+                    if neerslag > waarde:
+                        cal.add_component(event)
+            elif variabele == "Gevoelstemperatuur":
                 if verhouding == "=":
                     if gevoelstemperatuur == waarde:
                         cal.add_component(event)
