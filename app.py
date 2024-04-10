@@ -218,7 +218,9 @@ def agenda_feed_filter(filter):
 
 
             # uitvoering filter, voeg event alleen to als filter het toelaat
-            if variabele == "temperatuur":
+            if variabele == False:
+                cal.add_component(event)
+            elif variabele == "temperatuur":
                 if verhouding == "=":
                     if temperatuur == waarde:
                         cal.add_component(event)
