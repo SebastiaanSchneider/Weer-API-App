@@ -37,7 +37,7 @@ def get_weer():
 @app.route('/ical')
 def geef_agenda_feed():
     # importeer api data
-    data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=007ca694539c40549f8105112242603&q=Purmerend&days=7&aqi=no&alerts=no").json()  # noqa
+    data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=Purmerend&days=7&aqi=no&alerts=no").json()  # noqa
 
     # setup kalender variabele
     cal = Calendar()
@@ -121,15 +121,14 @@ def agenda_feed_filter(filter):
     if "locatie" in filter:
         # opzet filter voor locatie
         locatie = filter.split("=")[1]
-        data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=007ca694539c40549f8105112242603&q=" + locatie + "&days=7&aqi=no&alerts=no").json()  # noqa
-        print("http://api.weatherapi.com/v1/forecast.json?key=007ca694539c40549f8105112242603&q=" +
-              locatie + "&days=7&aqi=no&alerts=no")
+        data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=" + locatie + "&days=7&aqi=no&alerts=no").json()  # noqa
+        print("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=" + locatie + "&days=7&aqi=no&alerts=no")        
         verhouding = False
         variabele = False
         waarde = False
     else:
-        data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=007ca694539c40549f8105112242603&q=Purmerend&days=7&aqi=no&alerts=no").json()  # noqa
-        print("http://api.weatherapi.com/v1/forecast.json?key=007ca694539c40549f8105112242603&q=Purmerend&days=7&aqi=no&alerts=no")
+        data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=Purmerend&days=7&aqi=no&alerts=no").json()  # noqa
+        print("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=Purmerend&days=7&aqi=no&alerts=no")
         
         # opzet filter voor variabele
         if "=" in filter:
@@ -143,7 +142,7 @@ def agenda_feed_filter(filter):
             verhouding = ">"
         else:
             print("Error: operator niet herkend")
-        variabele = filter[0]
+        variabele = filter[0].lower()
         waarde = int(filter[1])
 
 
@@ -219,7 +218,7 @@ def agenda_feed_filter(filter):
 
 
             # uitvoering filter, voeg event alleen to als filter het toelaat
-            if variabele == "Temperatuur":
+            if variabele == "temperatuur":
                 if verhouding == "=":
                     if temperatuur == waarde:
                         cal.add_component(event)
@@ -229,7 +228,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if temperatuur > waarde:
                         cal.add_component(event)
-            elif variabele == "Regenkans":
+            elif variabele == "regenkans":
                 if verhouding == "=":
                     if regen_kans == waarde:
                         cal.add_component(event)
@@ -239,7 +238,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if regen_kans > waarde:
                         cal.add_component(event)
-            elif variabele == "Neerslag":
+            elif variabele == "neerslag":
                 if verhouding == "=":
                     if neerslag == waarde:
                         cal.add_component(event)
@@ -249,7 +248,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if neerslag > waarde:
                         cal.add_component(event)
-            elif variabele == "Gevoelstemperatuur":
+            elif variabele == "gevoelstemperatuur":
                 if verhouding == "=":
                     if gevoelstemperatuur == waarde:
                         cal.add_component(event)
@@ -259,7 +258,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if gevoelstemperatuur > waarde:
                         cal.add_component(event)
-            elif variabele == "Dauwpunt":
+            elif variabele == "dauwpunt":
                 if verhouding == "=":
                     if dauwpunt == waarde:
                         cal.add_component(event)
@@ -269,7 +268,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if dauwpunt > waarde:
                         cal.add_component(event)
-            elif variabele == "Luchtvochtigheid":
+            elif variabele == "luchtvochtigheid":
                 if verhouding == "=":
                     if luchtvochtigheid == waarde:
                         cal.add_component(event)
@@ -279,7 +278,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if luchtvochtigheid > waarde:
                         cal.add_component(event)
-            elif variabele == "Luchtdruk":
+            elif variabele == "luchtdruk":
                 if verhouding == "=":
                     if luchtdruk == waarde:
                         cal.add_component(event)
@@ -289,7 +288,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if luchtdruk > waarde:
                         cal.add_component(event)
-            elif variabele == "UV Straling":
+            elif variabele == "uv straling":
                 if verhouding == "=":
                     if uv == waarde:
                         cal.add_component(event)
@@ -299,7 +298,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if uv > waarde:
                         cal.add_component(event)
-            elif variabele == "Zicht":
+            elif variabele == "zicht":
                 if verhouding == "=":
                     if zicht == waarde:
                         cal.add_component(event)
@@ -309,7 +308,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if zicht > waarde:
                         cal.add_component(event)
-            elif variabele == "Windrichting":
+            elif variabele == "windrichting":
                 if verhouding == "=":
                     if windrichting == waarde:
                         cal.add_component(event)
@@ -319,7 +318,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if windrichting > waarde:
                         cal.add_component(event)
-            elif variabele == "Wind Snelheid":
+            elif variabele == "wind snelheid":
                 if verhouding == "=":
                     if wind_snelheid == waarde:
                         cal.add_component(event)
@@ -329,7 +328,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if wind_snelheid > waarde:
                         cal.add_component(event)
-            elif variabele == "Windstoten":
+            elif variabele == "windstoten":
                 if verhouding == "=":
                     if windstoten == waarde:
                         cal.add_component(event)
@@ -339,7 +338,7 @@ def agenda_feed_filter(filter):
                 elif verhouding == ">":
                     if windstoten > waarde:
                         cal.add_component(event)
-            elif variabele == "Wind Temperatuur":
+            elif variabele == "wind temperatuur":
                 if verhouding == "=":
                     if wind_temp == waarde:
                         cal.add_component(event)
@@ -352,6 +351,7 @@ def agenda_feed_filter(filter):
 
     # geef .ics bestand terug
     return Response(cal.to_ical(), mimetype='text/calendar')
+    # return data
 
 
 if __name__ == '__main__':
