@@ -4,15 +4,12 @@ verwerk data
 exporteer data naar calender
 geef data weer
 """
-import os
-import re
 import uuid
 from datetime import datetime
-from pathlib import Path
 import pytz
 import requests
-from flask import Flask, g, jsonify, render_template, request, Response
-from icalendar import Calendar, Event, vCalAddress, vText
+from flask import Flask, render_template, Response
+from icalendar import Calendar, Event
 
 
 app = Flask(__name__, '/static')
@@ -22,7 +19,8 @@ app = Flask(__name__, '/static')
 @app.route('/')
 def get_weer():
     # importeer api data
-    data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=007ca694539c40549f8105112242603&q=Purmerend&days=7&aqi=no&alerts=no").json()  # noqa
+    data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=007ca694539c40549f8105112242603&q=Purmerend&days=7&aqi=no&alerts=no",  # pylint: disable=line-too-long
+                        timeout=10).json()
 
     # haal data op en geef ze door aan index template om in tabel te zetten
     if data:
@@ -33,16 +31,18 @@ def get_weer():
     else:
         return "big sad, no data"
 
+
 # route om de ical te vormen en hosten
 @app.route('/ical')
 def geef_agenda_feed():
     # importeer api data
-    data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=Purmerend&days=7&aqi=no&alerts=no").json()  # noqa
+    data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=Purmerend&days=7&aqi=no&alerts=no",  # pylint: disable=line-too-long
+                        timeout=10).json()
 
     # setup kalender variabele
     cal = Calendar()
 
-    # some properties are required to be compliant
+    # basiscomponenten ical-format
     cal.add('prodid', '-//API Weer Kalender//weatherapi.com//')
     cal.add('version', '2.0')
 
@@ -99,11 +99,9 @@ def geef_agenda_feed():
 
             # aanmaak componenten
             event.add('dtstart', datetime(year, month, day, time_hour,
-                                          time_minute, 0, tzinfo = 
-                                          pytz.timezone('Europe/Amsterdam')))
+                                          time_minute, 0, tzinfo=pytz.timezone('Europe/Amsterdam')))
             event.add('dtend', datetime(year, month, day, (time_hour + 1) % 24,
-                                        time_minute, 0, tzinfo = 
-                                        pytz.timezone('Europe/Amsterdam')))
+                                        time_minute, 0, tzinfo=pytz.timezone('Europe/Amsterdam')))
             event['uid'] = uid
             event.add('summary', weer_kop)
             event.add('description', weerbericht)
@@ -111,40 +109,42 @@ def geef_agenda_feed():
 
             # voeg uur toe aan kalender
             cal.add_component(event)
+
     # geef .ics bestand terug
     return Response(cal.to_ical(), mimetype='text/calendar')
 
+
 # route om de ical te vormen en hosten met een filter
-@app.route('/ical/filter/<filter>')
-def agenda_feed_filter(filter):
+@app.route('/ical/filter/<filters>')
+def agenda_feed_filter(filters):
     # importeer api data en categoriseer filter
-    if "locatie" in filter:
+    if "locatie" in filters:
         # opzet filter voor locatie
-        locatie = filter.split("=")[1]
-        data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=" + locatie + "&days=7&aqi=no&alerts=no").json()  # noqa
-        print("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=" + locatie + "&days=7&aqi=no&alerts=no")        
+        locatie = filters.split("=")[1]
+        data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q="  # pylint: disable=line-too-long
+                            + locatie + "&days=7&aqi=no&alerts=no",
+                            timeout=10).json()
         verhouding = False
         variabele = False
         waarde = False
     else:
-        data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=Purmerend&days=7&aqi=no&alerts=no").json()  # noqa
-        print("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=Purmerend&days=7&aqi=no&alerts=no")
-        
+        data = requests.get("http://api.weatherapi.com/v1/forecast.json?key=695b6ac170744c18bc780518241004&q=Purmerend&days=7&aqi=no&alerts=no",  # pylint: disable=line-too-long
+                            timeout=10).json()
+
         # opzet filter voor variabele
-        if "=" in filter:
-            filter = filter.split("=")
+        if "=" in filters:
+            filters = filters.split("=")
             verhouding = "="
-        elif "<" in filter:
-            filter = filter.split("<")
+        elif "<" in filters:
+            filters = filters.split("<")
             verhouding = "<"
-        elif ">" in filter:
-            filter = filter.split(">")
+        elif ">" in filters:
+            filters = filters.split(">")
             verhouding = ">"
         else:
             print("Error: operator niet herkend")
-        variabele = filter[0].lower()
-        waarde = int(filter[1])
-
+        variabele = filters[0].lower()
+        waarde = int(filters[1])
 
     # setup kalender variabele
     cal = Calendar()
@@ -189,15 +189,15 @@ def agenda_feed_filter(filter):
             zicht = hour['vis_km']
 
             # header van elk agenda punt met hoofd informatie
-            weer_kop = ("Vooruitzicht: " + text + " bij " + str(temperatuur) + 
-                        " C met " + str(regen_kans) + 
-                        "% kans op regen en gemiddeld " + str(neerslag) + 
+            weer_kop = ("Vooruitzicht: " + text + " bij " + str(temperatuur) +
+                        " C met " + str(regen_kans) +
+                        "% kans op regen en gemiddeld " + str(neerslag) +
                         " mm neerslag.")
-            
+
             # omschrijving van elk agenda punt met verdere details
-            weerbericht = ("Gevoelstemperatuur: " + str(gevoelstemperatuur) + 
+            weerbericht = ("Gevoelstemperatuur: " + str(gevoelstemperatuur) +
                            " C" + "\nDauwpunt: " + str(dauwpunt) + " C" +
-                           "\nLuchtvochtigheid: " + str(luchtvochtigheid) + 
+                           "\nLuchtvochtigheid: " + str(luchtvochtigheid) +
                            "%" + "\nLuchtdruk: " + str(luchtdruk) + " mB" +
                            "\nUV Straling: " + str(uv) +
                            "\nZicht: " + str(zicht) + " km" +
@@ -216,9 +216,8 @@ def agenda_feed_filter(filter):
             event.add('description', weerbericht)
             event.transparent = False
 
-
             # uitvoering filter, voeg event alleen to als filter het toelaat
-            if variabele == False:
+            if variabele is False:
                 cal.add_component(event)
             elif variabele == "temperatuur":
                 if verhouding == "=":
@@ -353,7 +352,6 @@ def agenda_feed_filter(filter):
 
     # geef .ics bestand terug
     return Response(cal.to_ical(), mimetype='text/calendar')
-    # return data
 
 
 if __name__ == '__main__':
