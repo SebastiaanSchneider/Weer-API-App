@@ -216,6 +216,13 @@ def agenda_feed_filter(filters):
             event.add('description', weerbericht)
             event.transparent = False
 
+
+            # opties = ['temperatuur', 'regenkans']
+
+            # for optie in opties:
+            #     if variabele == optie:
+            #         var = {variabele : {verhouding: waarde}}
+                    
             # uitvoering filter, voeg event alleen to als filter het toelaat
             if variabele is False:
                 cal.add_component(event)
